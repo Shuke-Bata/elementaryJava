@@ -1,0 +1,50 @@
+﻿14.1：Awt —》swing --》javafx
+14.2：首先，对于 Java 编程人门者而言，JavaFX 更容易学习和使用。其次，Swing 原则上已消亡，因为它不会再得到任何增强。JavaFX 是一个新的 GUI 工具，用于在台式计算机、手持设备和 Web 上开发跨平台的富因特 网应用。 
+14.3：Application.launch(args);Stage stage =new Stage（）; 当应用程序启动的时候，一个称为主舞台的 Stage 对象由JVM 自动创建 Scene 对象可以使用构造方法 Scene（ujde, width, height)创建。可以，不可以
+14.4：1aunch application 
+Test constructor is invoked
+start method is invoked
+14.5：Stage stage =new Stage（）
+面板置于场景中，然后场景设置于舞台中
+14.6：面板属于容器类，从而自动地将节点布局在一个希望的位置和大小。将节点置于一个面板中，然后将面板再置于一个场景中。节点是可视化组件，比如一个形状、一个图像视图、一个UI组件或者一个面板。
+14.7：Circle circle = new Circle（）；circle.setCenterX(); circle.setCenterY(); 
+ circle.setRadius(); circle.setStroke(Color.color); circle.setFill(Color.WHITE); 
+14.8:可以将一个目标对象绑定到源对象中。源对象的修改将自动反映到目标对象中。bind 方法在 javafx.beans.property.Property 接口中定义.源对象javafx.beans.value.ObervableValue 接口的一个实例。对于 double/float/1ong/int/boolean 类型 的值，它的绑定属性类型是DoubleProperty/FloatProperty/LongProperty/IntegerProperty/ BooleanProperty。对于字符串而言，它的绑定属性类型是 StringProperty.不是，可以
+14.9：例如：getCente「X()称为值的获取方法将 setCenterX(double)称为值的设置方法，而将 centerXPropertyO 称为属性获取方法
+14.10：不可以。Integer a = new SimpleIntegerProperty(3);40.4; 73.4
+14.11:一个属性的改变将反映到另一个对象上，反过来也一样，这称为双向绑定。若绑定只有一方，则为单项绑定。不是。d1.bind(d2);d2.bind(d1)
+14.12:pane.setStyle(“-fx-border-color:red”);btOK.setStyle("-fx-border-color: blue:");
+14.13:可以，pane.setRotate(15);
+14.14：public Color(doub1e r, double g ( double bt double opacity);里面的数值都应该在0-1之间。new Color(0,0,0,1)深，darkerO 方法返回一个具有更小的红、绿、蓝值的新的 Color 对象
+14.15:public Color(Math,random,Math,random,Math,random)
+14.16:circle.setFill(Color.BLUE);
+14.17:    Font font2 = Font.font("Courier" , FontWeight.BOLD, FontPosture.ITALIC, 20);
+14.18：getFontNamesn（）
+14.19：Image image » new Image("image/us.gif ");
+14.20：ImageView imageView2 = new ImageView(image);
+14.21：可以，不可以
+14.22：add remove
+14.23:pane.setAUgnmentCPos.CENTER); 
+14.24:FlowPane(hgav:8,vgav:8)
+spacing(8)
+14.25:getRowIndex(child:Node)
+setRowIndex(child: Node. rewind: Int)
+14.26:FlowPane:多行多列
+      HBox:单行
+      VBox:单列
+14.27：Shape类里面表示
+14.28：Text text = new Text(setRotate(45))
+14.29: Line line = new Line(10,10,70,30)
+ Line.setStrokeWidth(10);
+14.30: Rectangle r = new Rectangle(10,10,100,50); 
+r.setFill(Color.RED)
+14.31:Rectangle r = new Rectangle(10,10,100,200);
+      r.setArcWidth(40);
+      r.setArcHeigth(20);
+14.32:Ellipse el = new Ellipse(50,50,50,100);
+14.33:new Arc(x, y, 50, 50,0,180);
+14.34: Arc arc = new Arc(x, y, 50, 50,0,-180);
+       arc.setFill(Color:RED);
+14.35:Polygon polygon = new Polygon((20,40),(30,50),(40,90),(90,10),(10,30));
+      Polygon.setFill(Color：GREEN));
+14.36:Polyline polyline = new Polyline((20,40),(30,50),(40,90),(90,10),(10,30));

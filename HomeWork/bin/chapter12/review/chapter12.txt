@@ -1,0 +1,56 @@
+1、答：它能使方法抛出一个异常给他的调用者，并由调用者处理该异常
+2、答：都会抛出异常
+3、答：会
+4、答：JVM会将错误作为对象抛出，使用try-catch,catch块捕获异常
+5、答：value is too small
+	Continue after the catch block
+6、答：a)、0
+	b)、0 1
+	
+7、答：Throwable类是所有异常类的根，他的子类Exception(异常)，Error(错误)
+8、答：a)、ArithmeticException
+	b)、IndexOutOfBoundsException
+	c)、IndexOutOfBoundsException
+	d)、IllegalArgumentException
+	e)、NullPointerException
+	f)、ArithmeticException
+9、答：防止代码发生异常，throws，在方法头显式声明，可以声明多个，用逗号分隔
+10、答：免检异常RuntimeException和Error以及它们的子类
+	必检异常：除开免检异常的其他异常
+11、答：throw关键字来抛出异常，应该不可以
+12、答：throw关键字来抛出异常，throws关键字来声明异常
+13、答：不会、不会，会
+14、答：RuntimeException
+15、答：Exception
+16、答：RuntimeException in method()
+	Exception in main
+17、答：getMessage() 返回描述该异常对象的信息
+18、答：printStackTrace() 在控制台上打印Throwable对象和它的调用堆栈信息
+19、答：不会
+20、答：在方法头加上throws Exception
+21、答：都会、都会、会，不会
+22、答：是
+23、都会、都会、会，不会，会，不会
+24、答：
+25、答：extends Exception
+26、答：
+27、答：\是转义字符，应该用\\
+28、答：exists()、delete()、renameTo()、能、mkdir()/mkdirs()
+29、答：不能、是
+30、答：PrintWriter output = new PrintWriter(fileName);因为调用PrintWriter的构造方法可能会抛出某种I/O异常
+如果没有的调用close() ，数据就不能正确的保存在文件
+31、答：amount is 32.32 3232E-2
+	amount is 32.32 3232E-2
+	
+	java
+32、答：
+33、答：Scanner input = new Scanner(new File(fileName));
+new Scanner(File)可能会抛出某种I/O异常，
+没有必要关闭输入文件，但是这样做是一种释放被文件暂用的资源的好办法
+34、答：异常，已经存在的文件的内容将在不和用户确认的情况下被弃用
+35、答：不一样，\r\n
+36、答：45、57.8、789
+37、答：45、57.8、null
+38、答：URL url = new URL("");
+	Scanner input = new Scanner(url.openStream());
+39、答：

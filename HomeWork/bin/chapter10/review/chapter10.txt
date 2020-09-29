@@ -1,0 +1,83 @@
+1、答：不是，其中数据域有一个Date类的对象
+2、答：是
+3、答：关联、聚合、组合、继承
+4、答：关联是一种常见的二元关系，描述两个类之间的活动。
+聚集是关联的一种特殊形式， 代表了两个对象之间的归属关系。所有者对象称为聚集对象，它的类称为聚集类。而从属对象称为被聚集对象，它的类称为被聚集类。
+如果一个对象只归属于一个聚集对象，那么它和聚集对象之间的关系就称为组合。
+5、答：菱形
+6、答：由于聚集和组合关系都以同样的方式用类来表示
+7、答：就是将基础类型的数据用类封装，使用其中的方法，及类的传参方式
+8、答：a,b,c,d,f,g,h,i,j 编译成功
+	e，编译失败
+9、答：Integer.toString(int i);数值字符转换成一个整数： Integer.parseInt;数值型字符串转换成double：(Double.valueof(String s)).doubleValue();
+10、答：3
+		-1
+11、答：10
+		10
+		16
+		11
+		11
+		17
+12、答：将基本数据类型转换成包装类对象的过程称为装箱(boxing)，相反的转换过程称为开箱(unboxing);
+	编译器根据所处于的环境自动进行转换称为自动装箱和自动开箱
+	b,c,d,f正确
+13、答：3
+	-1
+14、答：3
+	7
+	10
+15、答：true
+	false
+	true
+	true
+	true
+	Welcome to HTML
+	WelcTme tT Java
+	WelcTme tT Java
+	WelcTme to Java
+	W e l c o m e t o J a v a
+16、答：个人认为看情况而定，如果是用一次就不用了，用后者，便于垃圾回收（申请在堆里）。如果是多次使用，用前者。
+17、答：Welcome to Java
+	Welcabcme tabc Java
+18、答：a)、s2 = s1.replace('e','E');
+	b)、String[] tokens = "Welcome to Java and HTML".split(" ");
+	s1 = tokens[0];
+	s2 = token[1];
+19、答：有，replace
+20、答：0
+21、答：char转换成字符串：valueOf(char c)；字符数组转换成字符串：String(char[] data)或者valueOf(char[] data)
+	数值转换成字符串：valueOf()
+22、答：Test 里面String申请了新的变量，对外层text不影响。所以test.text还是null。
+23、答：构造方法没有返回类型，void也不可以
+24、答：false
+	true
+	A,B;C
+	A#B#C
+	A B C
+25、答：3
+26、答：1、运行速度，或者说是执行速度，在这方面运行速度快慢为：StringBuilder > StringBuffer > String
+	2、在线程安全上，StringBuilder是线程不安全的，而StringBuffer是线程安全的
+	3、String：适用于少量的字符串操作的情况
+	　　StringBuilder：适用于单线程下在字符缓冲区进行大量操作的情况
+	　　StringBuffer：适用多线程下在字符缓冲区进行大量操作的情况
+27、答：append():
+	toString():从字符串构建器返回一个字符串对象
+28、答：StringBuilder s1 = s.reverse();
+	s.reverse();
+29、答：StringBuilder s1 = s.delete(4,11);
+	s.delete(4,11);
+30、答：字符数组
+31、答：a)、Java is fun
+	b)、JavaHTML
+	c)、jais funva
+	d)、jHTMLava
+	e)、v
+	f)、4
+	g)、jav
+	h)、ja
+	i)、avaj
+	j)、jComputera
+	k)、av
+	l)、va
+32、答：java 
+	java and HTML

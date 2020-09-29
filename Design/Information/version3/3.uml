@@ -1,0 +1,1018 @@
+<?xml version="1.0" encoding="ISO-8859-1"?>
+<uml:Model xmi:version="2.1" xmlns:xmi="http://schema.omg.org/spec/XMI/2.1" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:uml="http://www.eclipse.org/uml2/3.0.0/UML" xmi:id="_tF9WsJtAEem9TMwoMAQ0sg">
+  <name xsi:nil="true"/>
+  <elementImport xmi:id="_tZKmkJtAEem9TMwoMAQ0sg">
+    <importedElement xmi:type="uml:PrimitiveType" href="pathmap://UML_LIBRARIES/JavaPrimitiveTypes.library.uml#int"/>
+  </elementImport>
+  <elementImport xmi:id="_tbTUkJtAEem9TMwoMAQ0sg">
+    <importedElement xmi:type="uml:PrimitiveType" href="pathmap://UML_LIBRARIES/UMLPrimitiveTypes.library.uml#String"/>
+  </elementImport>
+  <packagedElement xmi:type="uml:Package" xmi:id="_tJGKQJtAEem9TMwoMAQ0sg" name="version3">
+    <packagedElement xmi:type="uml:Class" xmi:id="_tL3xcJtAEem9TMwoMAQ0sg" name="ExitFrame">
+      <ownedComment xmi:id="_tMRaEJtAEem9TMwoMAQ0sg">
+        <body>/** 
+ * &#x9000;&#x51fa;&#x754c;&#x9762;
+ * @author &#x5468;&#x660e;&#x534e;
+ */
+</body>
+      </ownedComment>
+      <generalization xmi:id="_tXFi8JtAEem9TMwoMAQ0sg" general="_tWTf0JtAEem9TMwoMAQ0sg"/>
+      <ownedOperation xmi:id="_tXPT8JtAEem9TMwoMAQ0sg" name="start" visibility="public">
+        <ownedParameter xmi:id="_tXPT8ZtAEem9TMwoMAQ0sg" name="primaryStage" type="_tWUG5ptAEem9TMwoMAQ0sg"/>
+      </ownedOperation>
+    </packagedElement>
+    <packagedElement xmi:type="uml:Class" xmi:id="_tMcZMJtAEem9TMwoMAQ0sg" name="SearchPostgraduate">
+      <ownedComment xmi:id="_tMdnUJtAEem9TMwoMAQ0sg">
+        <body>/** 
+ * &#x67e5;&#x8be2;&#x7814;&#x7a76;&#x751f;&#x754c;&#x9762;
+ * @author &#x5468;&#x660e;&#x534e;
+ */
+</body>
+      </ownedComment>
+      <generalization xmi:id="_tXQiEJtAEem9TMwoMAQ0sg" general="_tWTf0JtAEem9TMwoMAQ0sg"/>
+      <ownedOperation xmi:id="_tXQiEZtAEem9TMwoMAQ0sg" name="start" visibility="public">
+        <ownedParameter xmi:id="_tXQiEptAEem9TMwoMAQ0sg" name="primaryStage" type="_tWUG5ptAEem9TMwoMAQ0sg"/>
+      </ownedOperation>
+    </packagedElement>
+    <packagedElement xmi:type="uml:Class" xmi:id="_tM66UJtAEem9TMwoMAQ0sg" name="ShowSearchPostgraduateTable">
+      <ownedComment xmi:id="_tM9WkJtAEem9TMwoMAQ0sg">
+        <body>/** 
+ * &#x7814;&#x7a76;&#x751f;&#x4fe1;&#x606f;&#x67e5;&#x8be2;&#x5c55;&#x793a;
+ * @author &#x5468;&#x660e;&#x534e;
+ */
+</body>
+      </ownedComment>
+      <generalization xmi:id="_tXRJIJtAEem9TMwoMAQ0sg" general="_tWTf0JtAEem9TMwoMAQ0sg"/>
+      <ownedAttribute xmi:id="_tZFuEJtAEem9TMwoMAQ0sg" name="table" visibility="private" type="_tZEf8JtAEem9TMwoMAQ0sg" isReadOnly="true"/>
+      <ownedOperation xmi:id="_tZHjQJtAEem9TMwoMAQ0sg" name="start" visibility="public">
+        <ownedParameter xmi:id="_tZHjQZtAEem9TMwoMAQ0sg" name="stage" type="_tWUG5ptAEem9TMwoMAQ0sg"/>
+        <ownedParameter xmi:id="_tZHjQptAEem9TMwoMAQ0sg" name="list" type="_tWUt8ZtAEem9TMwoMAQ0sg"/>
+      </ownedOperation>
+      <ownedOperation xmi:id="_tZIxYJtAEem9TMwoMAQ0sg" name="start" visibility="public">
+        <ownedParameter xmi:id="_tZIxYZtAEem9TMwoMAQ0sg" name="primaryStage" type="_tWUG5ptAEem9TMwoMAQ0sg"/>
+      </ownedOperation>
+    </packagedElement>
+    <packagedElement xmi:type="uml:Class" xmi:id="_tNbQoJtAEem9TMwoMAQ0sg" name="DeleteEmployee">
+      <ownedComment xmi:id="_tNfiEJtAEem9TMwoMAQ0sg">
+        <body>/** 
+ * &#x5220;&#x9664;&#x96c7;&#x5458;&#x4fe1;&#x606f;&#x754c;&#x9762;
+ * @author &#x5468;&#x660e;&#x534e;
+ */
+</body>
+      </ownedComment>
+      <generalization xmi:id="_tZJ_gJtAEem9TMwoMAQ0sg" general="_tWTf0JtAEem9TMwoMAQ0sg"/>
+      <ownedOperation xmi:id="_tZLNoJtAEem9TMwoMAQ0sg" name="start" visibility="public">
+        <ownedParameter xmi:id="_tZLNoZtAEem9TMwoMAQ0sg" name="primaryStage" type="_tWUG5ptAEem9TMwoMAQ0sg"/>
+        <ownedParameter xmi:id="_tZLNoptAEem9TMwoMAQ0sg" name="list" type="_tWUt8ZtAEem9TMwoMAQ0sg"/>
+        <ownedParameter xmi:id="_tZLNo5tAEem9TMwoMAQ0sg" name="index">
+          <type xmi:type="uml:PrimitiveType" href="pathmap://UML_LIBRARIES/JavaPrimitiveTypes.library.uml#int"/>
+        </ownedParameter>
+      </ownedOperation>
+      <ownedOperation xmi:id="_tZNC0JtAEem9TMwoMAQ0sg" name="saveToFile" visibility="public" isStatic="true">
+        <ownedComment xmi:id="_tZOQ8JtAEem9TMwoMAQ0sg">
+          <body>/** 
+ * &#x5199;&#x5165;&#x6587;&#x4ef6;
+ * @param employees
+ * @param size
+ * @throws FileNotFoundException
+ */
+</body>
+        </ownedComment>
+        <ownedParameter xmi:id="_tZNC0ZtAEem9TMwoMAQ0sg" name="employees" type="_tWUt8ZtAEem9TMwoMAQ0sg"/>
+        <ownedParameter xmi:id="_tZNC0ptAEem9TMwoMAQ0sg" name="size">
+          <type xmi:type="uml:PrimitiveType" href="pathmap://UML_LIBRARIES/JavaPrimitiveTypes.library.uml#int"/>
+        </ownedParameter>
+      </ownedOperation>
+      <ownedOperation xmi:id="_tZO4AJtAEem9TMwoMAQ0sg" name="start" visibility="public">
+        <ownedParameter xmi:id="_tZO4AZtAEem9TMwoMAQ0sg" name="primaryStage" type="_tWUG5ptAEem9TMwoMAQ0sg"/>
+      </ownedOperation>
+    </packagedElement>
+    <packagedElement xmi:type="uml:Class" xmi:id="_tNfiEZtAEem9TMwoMAQ0sg" name="DeleteEmployeeSearch" visibility="package">
+      <ownedComment xmi:id="_tNjzgJtAEem9TMwoMAQ0sg">
+        <body>/** 
+ * &#x5220;&#x9664;&#x96c7;&#x5458;&#x4fe1;&#x606f;&#x67e5;&#x8be2;&#x754c;&#x9762;
+ * @author &#x5468;&#x660e;&#x534e;
+ */
+</body>
+      </ownedComment>
+      <generalization xmi:id="_tZQGIJtAEem9TMwoMAQ0sg" general="_tWTf0JtAEem9TMwoMAQ0sg"/>
+      <ownedOperation xmi:id="_tZQGIZtAEem9TMwoMAQ0sg" name="start" visibility="public">
+        <ownedParameter xmi:id="_tZQGIptAEem9TMwoMAQ0sg" name="primaryStage" type="_tWUG5ptAEem9TMwoMAQ0sg"/>
+      </ownedOperation>
+    </packagedElement>
+    <packagedElement xmi:type="uml:Class" xmi:id="_tNqhMJtAEem9TMwoMAQ0sg" name="SearchEmployee">
+      <ownedComment xmi:id="_tNrvUJtAEem9TMwoMAQ0sg">
+        <body>/** 
+ * &#x67e5;&#x8be2;&#x96c7;&#x5458;&#x754c;&#x9762;
+ * @author &#x5468;&#x660e;&#x534e;
+ */
+</body>
+      </ownedComment>
+      <generalization xmi:id="_tZR7UJtAEem9TMwoMAQ0sg" general="_tWTf0JtAEem9TMwoMAQ0sg"/>
+      <ownedOperation xmi:id="_tZR7UZtAEem9TMwoMAQ0sg" name="start" visibility="public">
+        <ownedParameter xmi:id="_tZR7UptAEem9TMwoMAQ0sg" name="primaryStage" type="_tWUG5ptAEem9TMwoMAQ0sg"/>
+      </ownedOperation>
+    </packagedElement>
+    <packagedElement xmi:type="uml:Class" xmi:id="_tN6_4JtAEem9TMwoMAQ0sg" name="EmployeeTable">
+      <ownedComment xmi:id="_tN-DMJtAEem9TMwoMAQ0sg">
+        <body>/** 
+ * &#x96c7;&#x5458;&#x4fe1;&#x606f;&#x7ba1;&#x7406;&#x754c;&#x9762;
+ * @author &#x5468;&#x660e;&#x534e;
+ */
+</body>
+      </ownedComment>
+      <generalization xmi:id="_tZTJcJtAEem9TMwoMAQ0sg" general="_tWTf0JtAEem9TMwoMAQ0sg"/>
+      <ownedAttribute xmi:id="_tZUXkJtAEem9TMwoMAQ0sg" name="table" visibility="private" type="_tZTJcZtAEem9TMwoMAQ0sg" isReadOnly="true"/>
+      <ownedOperation xmi:id="_tZVlsJtAEem9TMwoMAQ0sg" name="start" visibility="public">
+        <ownedParameter xmi:id="_tZVlsZtAEem9TMwoMAQ0sg" name="stage" type="_tWUG5ptAEem9TMwoMAQ0sg"/>
+      </ownedOperation>
+      <ownedOperation xmi:id="_tZYB8JtAEem9TMwoMAQ0sg" name="readFile" visibility="public">
+        <ownedComment xmi:id="_tZZQEJtAEem9TMwoMAQ0sg">
+          <body>/** 
+ * &#x8bfb;&#x6587;&#x4ef6;
+ * @return
+ * @throws FileNotFoundException
+ */
+</body>
+        </ownedComment>
+        <ownedParameter xmi:id="_tZYB8ZtAEem9TMwoMAQ0sg" name="return" type="_tWUt8ZtAEem9TMwoMAQ0sg" direction="return"/>
+      </ownedOperation>
+    </packagedElement>
+    <packagedElement xmi:type="uml:Class" xmi:id="_tOXEwJtAEem9TMwoMAQ0sg" name="ChangeStudent">
+      <ownedComment xmi:id="_tOZhAJtAEem9TMwoMAQ0sg">
+        <body>/** 
+ * &#x4fee;&#x6539;&#x5b66;&#x751f;&#x4fe1;&#x606f;&#x754c;&#x9762;
+ * @author &#x5468;&#x660e;&#x534e;
+ */
+</body>
+      </ownedComment>
+      <generalization xmi:id="_tZZ3IJtAEem9TMwoMAQ0sg" general="_tWTf0JtAEem9TMwoMAQ0sg"/>
+      <ownedOperation xmi:id="_tZZ3IZtAEem9TMwoMAQ0sg" name="start" visibility="public">
+        <ownedParameter xmi:id="_tZZ3IptAEem9TMwoMAQ0sg" name="primaryStage" type="_tWUG5ptAEem9TMwoMAQ0sg"/>
+        <ownedParameter xmi:id="_tZZ3I5tAEem9TMwoMAQ0sg" name="list" type="_tWUt8ZtAEem9TMwoMAQ0sg"/>
+        <ownedParameter xmi:id="_tZZ3JJtAEem9TMwoMAQ0sg" name="index">
+          <type xmi:type="uml:PrimitiveType" href="pathmap://UML_LIBRARIES/JavaPrimitiveTypes.library.uml#int"/>
+        </ownedParameter>
+      </ownedOperation>
+      <ownedOperation xmi:id="_tZbsUJtAEem9TMwoMAQ0sg" name="saveToFile" visibility="public" isStatic="true">
+        <ownedComment xmi:id="_tZdhgJtAEem9TMwoMAQ0sg">
+          <body>/** 
+ * &#x5199;&#x5165;&#x6587;&#x4ef6;
+ * @param students
+ * @param size
+ * @throws FileNotFoundException
+ */
+</body>
+        </ownedComment>
+        <ownedParameter xmi:id="_tZbsUZtAEem9TMwoMAQ0sg" name="students" type="_tWUt8ZtAEem9TMwoMAQ0sg"/>
+        <ownedParameter xmi:id="_tZbsUptAEem9TMwoMAQ0sg" name="size">
+          <type xmi:type="uml:PrimitiveType" href="pathmap://UML_LIBRARIES/JavaPrimitiveTypes.library.uml#int"/>
+        </ownedParameter>
+      </ownedOperation>
+      <ownedOperation xmi:id="_tZdhgZtAEem9TMwoMAQ0sg" name="start" visibility="public">
+        <ownedParameter xmi:id="_tZdhgptAEem9TMwoMAQ0sg" name="primaryStage" type="_tWUG5ptAEem9TMwoMAQ0sg"/>
+      </ownedOperation>
+    </packagedElement>
+    <packagedElement xmi:type="uml:Class" xmi:id="_tOZhAZtAEem9TMwoMAQ0sg" name="ChangeStudentSearch" visibility="package">
+      <ownedComment xmi:id="_tOb9QJtAEem9TMwoMAQ0sg">
+        <body>/** 
+ * &#x4fee;&#x6539;&#x5b66;&#x751f;&#x4fe1;&#x606f;&#x67e5;&#x8be2;&#x754c;&#x9762;
+ * @author &#x5468;&#x660e;&#x534e;
+ */
+</body>
+      </ownedComment>
+      <generalization xmi:id="_tZfWsJtAEem9TMwoMAQ0sg" general="_tWTf0JtAEem9TMwoMAQ0sg"/>
+      <ownedOperation xmi:id="_tZfWsZtAEem9TMwoMAQ0sg" name="start" visibility="public">
+        <ownedParameter xmi:id="_tZfWsptAEem9TMwoMAQ0sg" name="primaryStage" type="_tWUG5ptAEem9TMwoMAQ0sg"/>
+      </ownedOperation>
+    </packagedElement>
+    <packagedElement xmi:type="uml:Class" xmi:id="_tOkgIJtAEem9TMwoMAQ0sg" name="FacultyTable">
+      <ownedComment xmi:id="_tOm8YJtAEem9TMwoMAQ0sg">
+        <body>/** 
+ * &#x6559;&#x5458;&#x4fe1;&#x606f;&#x7ba1;&#x7406;&#x754c;&#x9762;
+ * @author &#x5468;&#x660e;&#x534e;
+ */
+</body>
+      </ownedComment>
+      <generalization xmi:id="_tZgk0JtAEem9TMwoMAQ0sg" general="_tWTf0JtAEem9TMwoMAQ0sg"/>
+      <ownedAttribute xmi:id="_tZiaAJtAEem9TMwoMAQ0sg" name="table" visibility="private" type="_tZhL4JtAEem9TMwoMAQ0sg" isReadOnly="true"/>
+      <ownedOperation xmi:id="_tZjoIJtAEem9TMwoMAQ0sg" name="start" visibility="public">
+        <ownedParameter xmi:id="_tZjoIZtAEem9TMwoMAQ0sg" name="stage" type="_tWUG5ptAEem9TMwoMAQ0sg"/>
+      </ownedOperation>
+      <ownedOperation xmi:id="_tZldUJtAEem9TMwoMAQ0sg" name="readFile" visibility="public">
+        <ownedComment xmi:id="_tZmrcJtAEem9TMwoMAQ0sg">
+          <body>/** 
+ * &#x8bfb;&#x6587;&#x4ef6;
+ * @return
+ * @throws FileNotFoundException
+ */
+</body>
+        </ownedComment>
+        <ownedParameter xmi:id="_tZldUZtAEem9TMwoMAQ0sg" name="return" type="_tWUt8ZtAEem9TMwoMAQ0sg" direction="return"/>
+      </ownedOperation>
+    </packagedElement>
+    <packagedElement xmi:type="uml:Class" xmi:id="_tO1l4JtAEem9TMwoMAQ0sg" name="AddPostgraduate">
+      <ownedComment xmi:id="_tO3bEJtAEem9TMwoMAQ0sg">
+        <body>/** 
+ * &#x589e;&#x52a0;&#x7814;&#x7a76;&#x751f;&#x4fe1;&#x606f;&#x754c;&#x9762;
+ * @author &#x5468;&#x660e;&#x534e;
+ */
+</body>
+      </ownedComment>
+      <generalization xmi:id="_tZmrcZtAEem9TMwoMAQ0sg" general="_tWTf0JtAEem9TMwoMAQ0sg"/>
+      <ownedOperation xmi:id="_tZnSgJtAEem9TMwoMAQ0sg" name="start" visibility="public">
+        <ownedParameter xmi:id="_tZnSgZtAEem9TMwoMAQ0sg" name="primaryStage" type="_tWUG5ptAEem9TMwoMAQ0sg"/>
+      </ownedOperation>
+      <ownedOperation xmi:id="_tZogoJtAEem9TMwoMAQ0sg" name="saveToFile" visibility="public" isStatic="true">
+        <ownedComment xmi:id="_tZpuwJtAEem9TMwoMAQ0sg">
+          <body>/** 
+ * &#x5199;&#x5165;&#x6587;&#x4ef6;
+ * @param postgraduate
+ * @throws FileNotFoundException
+ */
+</body>
+        </ownedComment>
+        <ownedParameter xmi:id="_tZogoZtAEem9TMwoMAQ0sg" name="postgraduate" type="_tWUt8ZtAEem9TMwoMAQ0sg"/>
+      </ownedOperation>
+    </packagedElement>
+    <packagedElement xmi:type="uml:Class" xmi:id="_tO7FcJtAEem9TMwoMAQ0sg" name="SearchFaculty">
+      <ownedComment xmi:id="_tO8TkJtAEem9TMwoMAQ0sg">
+        <body>/** 
+ * &#x67e5;&#x8be2;&#x6559;&#x5458;&#x754c;&#x9762;
+ * @author &#x5468;&#x660e;&#x534e;
+ */
+</body>
+      </ownedComment>
+      <generalization xmi:id="_tZpuwZtAEem9TMwoMAQ0sg" general="_tWTf0JtAEem9TMwoMAQ0sg"/>
+      <ownedOperation xmi:id="_tZpuwptAEem9TMwoMAQ0sg" name="start" visibility="public">
+        <ownedParameter xmi:id="_tZpuw5tAEem9TMwoMAQ0sg" name="primaryStage" type="_tWUG5ptAEem9TMwoMAQ0sg"/>
+      </ownedOperation>
+    </packagedElement>
+    <packagedElement xmi:type="uml:Class" xmi:id="_tPIg0JtAEem9TMwoMAQ0sg" name="DeletePostgraduate">
+      <ownedComment xmi:id="_tPK9EJtAEem9TMwoMAQ0sg">
+        <body>/** 
+ * &#x5220;&#x9664;&#x7814;&#x7a76;&#x751f;&#x4fe1;&#x606f;&#x754c;&#x9762;
+ * @author &#x5468;&#x660e;&#x534e;
+ */
+</body>
+      </ownedComment>
+      <generalization xmi:id="_tZqV0JtAEem9TMwoMAQ0sg" general="_tWTf0JtAEem9TMwoMAQ0sg"/>
+      <ownedOperation xmi:id="_tZq84JtAEem9TMwoMAQ0sg" name="start" visibility="public">
+        <ownedParameter xmi:id="_tZq84ZtAEem9TMwoMAQ0sg" name="primaryStage" type="_tWUG5ptAEem9TMwoMAQ0sg"/>
+        <ownedParameter xmi:id="_tZq84ptAEem9TMwoMAQ0sg" name="list" type="_tWUt8ZtAEem9TMwoMAQ0sg"/>
+        <ownedParameter xmi:id="_tZq845tAEem9TMwoMAQ0sg" name="index">
+          <type xmi:type="uml:PrimitiveType" href="pathmap://UML_LIBRARIES/JavaPrimitiveTypes.library.uml#int"/>
+        </ownedParameter>
+      </ownedOperation>
+      <ownedOperation xmi:id="_tZsyEJtAEem9TMwoMAQ0sg" name="saveToFile" visibility="public" isStatic="true">
+        <ownedComment xmi:id="_tZuAMJtAEem9TMwoMAQ0sg">
+          <body>/** 
+ * &#x5199;&#x5165;&#x6587;&#x4ef6;
+ * @param postgraduates
+ * @param size
+ * @throws FileNotFoundException
+ */
+</body>
+        </ownedComment>
+        <ownedParameter xmi:id="_tZsyEZtAEem9TMwoMAQ0sg" name="postgraduates" type="_tWUt8ZtAEem9TMwoMAQ0sg"/>
+        <ownedParameter xmi:id="_tZsyEptAEem9TMwoMAQ0sg" name="size">
+          <type xmi:type="uml:PrimitiveType" href="pathmap://UML_LIBRARIES/JavaPrimitiveTypes.library.uml#int"/>
+        </ownedParameter>
+      </ownedOperation>
+      <ownedOperation xmi:id="_tZunQJtAEem9TMwoMAQ0sg" name="start" visibility="public">
+        <ownedParameter xmi:id="_tZunQZtAEem9TMwoMAQ0sg" name="primaryStage" type="_tWUG5ptAEem9TMwoMAQ0sg"/>
+      </ownedOperation>
+    </packagedElement>
+    <packagedElement xmi:type="uml:Class" xmi:id="_tPK9EZtAEem9TMwoMAQ0sg" name="DeletePostgraduateSearch" visibility="package">
+      <ownedComment xmi:id="_tPMyQJtAEem9TMwoMAQ0sg">
+        <body>/** 
+ * &#x67e5;&#x8be2;&#x5220;&#x9664;&#x7814;&#x7a76;&#x751f;&#x754c;&#x9762;
+ * @author &#x5468;&#x660e;&#x534e;
+ */
+</body>
+      </ownedComment>
+      <generalization xmi:id="_tZv1YJtAEem9TMwoMAQ0sg" general="_tWTf0JtAEem9TMwoMAQ0sg"/>
+      <ownedOperation xmi:id="_tZwccJtAEem9TMwoMAQ0sg" name="start" visibility="public">
+        <ownedParameter xmi:id="_tZwccZtAEem9TMwoMAQ0sg" name="primaryStage" type="_tWUG5ptAEem9TMwoMAQ0sg"/>
+      </ownedOperation>
+    </packagedElement>
+    <packagedElement xmi:type="uml:Class" xmi:id="_tPcp4JtAEem9TMwoMAQ0sg" name="ShowSearchStaffTable">
+      <ownedComment xmi:id="_tPefEJtAEem9TMwoMAQ0sg">
+        <body>/** 
+ * &#x804c;&#x5458;&#x4fe1;&#x606f;&#x67e5;&#x8be2;&#x5c55;&#x793a;
+ * @author &#x5468;&#x660e;&#x534e;
+ */
+</body>
+      </ownedComment>
+      <generalization xmi:id="_tZxqkJtAEem9TMwoMAQ0sg" general="_tWTf0JtAEem9TMwoMAQ0sg"/>
+      <ownedAttribute xmi:id="_tZyRoJtAEem9TMwoMAQ0sg" name="table" visibility="private" type="_tZxqkZtAEem9TMwoMAQ0sg" isReadOnly="true"/>
+      <ownedOperation xmi:id="_tZzfwJtAEem9TMwoMAQ0sg" name="start" visibility="public">
+        <ownedParameter xmi:id="_tZzfwZtAEem9TMwoMAQ0sg" name="stage" type="_tWUG5ptAEem9TMwoMAQ0sg"/>
+        <ownedParameter xmi:id="_tZzfwptAEem9TMwoMAQ0sg" name="list" type="_tWUt8ZtAEem9TMwoMAQ0sg"/>
+      </ownedOperation>
+      <ownedOperation xmi:id="_tZ0t4JtAEem9TMwoMAQ0sg" name="start" visibility="public">
+        <ownedParameter xmi:id="_tZ0t4ZtAEem9TMwoMAQ0sg" name="primaryStage" type="_tWUG5ptAEem9TMwoMAQ0sg"/>
+      </ownedOperation>
+    </packagedElement>
+    <packagedElement xmi:type="uml:Class" xmi:id="_tPqFQJtAEem9TMwoMAQ0sg" name="ShowSearchEmployeeTable">
+      <ownedComment xmi:id="_tPqsUJtAEem9TMwoMAQ0sg">
+        <body>/** 
+ * &#x96c7;&#x5458;&#x4fe1;&#x606f;&#x67e5;&#x8be2;&#x5c55;&#x793a;
+ * @author &#x5468;&#x660e;&#x534e;
+ */
+</body>
+      </ownedComment>
+      <generalization xmi:id="_tZ1U8JtAEem9TMwoMAQ0sg" general="_tWTf0JtAEem9TMwoMAQ0sg"/>
+      <ownedAttribute xmi:id="_tZ2jEJtAEem9TMwoMAQ0sg" name="table" visibility="private" type="_tZTJcZtAEem9TMwoMAQ0sg" isReadOnly="true"/>
+      <ownedOperation xmi:id="_tZ3KIJtAEem9TMwoMAQ0sg" name="start" visibility="public">
+        <ownedParameter xmi:id="_tZ3xMJtAEem9TMwoMAQ0sg" name="stage" type="_tWUG5ptAEem9TMwoMAQ0sg"/>
+        <ownedParameter xmi:id="_tZ3xMZtAEem9TMwoMAQ0sg" name="list" type="_tWUt8ZtAEem9TMwoMAQ0sg"/>
+      </ownedOperation>
+      <ownedOperation xmi:id="_tZ4_UJtAEem9TMwoMAQ0sg" name="start" visibility="public">
+        <ownedParameter xmi:id="_tZ4_UZtAEem9TMwoMAQ0sg" name="primaryStage" type="_tWUG5ptAEem9TMwoMAQ0sg"/>
+      </ownedOperation>
+    </packagedElement>
+    <packagedElement xmi:type="uml:Class" xmi:id="_tP5V0JtAEem9TMwoMAQ0sg" name="ShowSearchStudentTable">
+      <ownedComment xmi:id="_tP6j8JtAEem9TMwoMAQ0sg">
+        <body>/** 
+ * &#x5b66;&#x751f;&#x67e5;&#x8be2;&#x5c55;&#x793a;
+ * @author &#x5468;&#x660e;&#x534e;
+ */
+</body>
+      </ownedComment>
+      <generalization xmi:id="_tZ5mYJtAEem9TMwoMAQ0sg" general="_tWTf0JtAEem9TMwoMAQ0sg"/>
+      <ownedAttribute xmi:id="_tZ60gJtAEem9TMwoMAQ0sg" name="table" visibility="private" type="_tZ6NcJtAEem9TMwoMAQ0sg" isReadOnly="true"/>
+      <ownedOperation xmi:id="_tZ8CoJtAEem9TMwoMAQ0sg" name="start" visibility="public">
+        <ownedParameter xmi:id="_tZ8CoZtAEem9TMwoMAQ0sg" name="stage" type="_tWUG5ptAEem9TMwoMAQ0sg"/>
+        <ownedParameter xmi:id="_tZ8CoptAEem9TMwoMAQ0sg" name="list" type="_tWUt8ZtAEem9TMwoMAQ0sg"/>
+      </ownedOperation>
+      <ownedOperation xmi:id="_tZ9QwJtAEem9TMwoMAQ0sg" name="start" visibility="public">
+        <ownedParameter xmi:id="_tZ9QwZtAEem9TMwoMAQ0sg" name="primaryStage" type="_tWUG5ptAEem9TMwoMAQ0sg"/>
+      </ownedOperation>
+    </packagedElement>
+    <packagedElement xmi:type="uml:Class" xmi:id="_tQCfwJtAEem9TMwoMAQ0sg" name="WelcomeFrame">
+      <generalization xmi:id="_tZ930JtAEem9TMwoMAQ0sg" general="_tWTf0JtAEem9TMwoMAQ0sg"/>
+      <ownedOperation xmi:id="_tZ-e4JtAEem9TMwoMAQ0sg" name="start" visibility="public">
+        <ownedParameter xmi:id="_tZ-e4ZtAEem9TMwoMAQ0sg" name="primaryStage" type="_tWUG5ptAEem9TMwoMAQ0sg"/>
+      </ownedOperation>
+    </packagedElement>
+    <packagedElement xmi:type="uml:Class" xmi:id="_tQE8AJtAEem9TMwoMAQ0sg" name="ShowSearchFacultyTable">
+      <ownedComment xmi:id="_tQFjEJtAEem9TMwoMAQ0sg">
+        <body>/** 
+ * &#x6559;&#x5458;&#x4fe1;&#x606f;&#x67e5;&#x8be2;&#x5c55;&#x793a;
+ * @author &#x5468;&#x660e;&#x534e;
+ */
+</body>
+      </ownedComment>
+      <generalization xmi:id="_tZ_F8JtAEem9TMwoMAQ0sg" general="_tWTf0JtAEem9TMwoMAQ0sg"/>
+      <ownedAttribute xmi:id="_tZ_tAJtAEem9TMwoMAQ0sg" name="table" visibility="private" type="_tZhL4JtAEem9TMwoMAQ0sg" isReadOnly="true"/>
+      <ownedOperation xmi:id="_taA7IJtAEem9TMwoMAQ0sg" name="start" visibility="public">
+        <ownedParameter xmi:id="_taA7IZtAEem9TMwoMAQ0sg" name="stage" type="_tWUG5ptAEem9TMwoMAQ0sg"/>
+        <ownedParameter xmi:id="_taA7IptAEem9TMwoMAQ0sg" name="list" type="_tWUt8ZtAEem9TMwoMAQ0sg"/>
+      </ownedOperation>
+      <ownedOperation xmi:id="_taCJQJtAEem9TMwoMAQ0sg" name="start" visibility="public">
+        <ownedParameter xmi:id="_taCJQZtAEem9TMwoMAQ0sg" name="primaryStage" type="_tWUG5ptAEem9TMwoMAQ0sg"/>
+      </ownedOperation>
+    </packagedElement>
+    <packagedElement xmi:type="uml:Class" xmi:id="_tQVasJtAEem9TMwoMAQ0sg" name="PostgraduateTable">
+      <ownedComment xmi:id="_tQWo0JtAEem9TMwoMAQ0sg">
+        <body>/** 
+ * &#x7814;&#x7a76;&#x751f;&#x4fe1;&#x606f;&#x7ba1;&#x7406;&#x754c;&#x9762;
+ * @author &#x5468;&#x660e;&#x534e;
+ */
+</body>
+      </ownedComment>
+      <generalization xmi:id="_taDXYJtAEem9TMwoMAQ0sg" general="_tWTf0JtAEem9TMwoMAQ0sg"/>
+      <ownedAttribute xmi:id="_taD-cJtAEem9TMwoMAQ0sg" name="table" visibility="private" type="_tZEf8JtAEem9TMwoMAQ0sg" isReadOnly="true"/>
+      <ownedOperation xmi:id="_taFMkJtAEem9TMwoMAQ0sg" name="start" visibility="public">
+        <ownedParameter xmi:id="_taFMkZtAEem9TMwoMAQ0sg" name="stage" type="_tWUG5ptAEem9TMwoMAQ0sg"/>
+      </ownedOperation>
+      <ownedOperation xmi:id="_taGasJtAEem9TMwoMAQ0sg" name="readFile" visibility="public">
+        <ownedComment xmi:id="_taIP4JtAEem9TMwoMAQ0sg">
+          <body>/** 
+ * &#x8bfb;&#x6587;&#x4ef6;
+ * @return
+ * @throws FileNotFoundException
+ */
+</body>
+        </ownedComment>
+        <ownedParameter xmi:id="_taGasZtAEem9TMwoMAQ0sg" name="return" type="_tWUt8ZtAEem9TMwoMAQ0sg" direction="return"/>
+      </ownedOperation>
+    </packagedElement>
+    <packagedElement xmi:type="uml:Class" xmi:id="_tQiPAJtAEem9TMwoMAQ0sg" name="ChangeFaculty">
+      <ownedComment xmi:id="_tQkrQJtAEem9TMwoMAQ0sg">
+        <body>/** 
+ * &#x4fee;&#x6539;&#x6559;&#x5458;&#x4fe1;&#x606f;&#x754c;&#x9762;
+ * @author &#x5468;&#x660e;&#x534e;
+ */
+</body>
+      </ownedComment>
+      <generalization xmi:id="_taIP4ZtAEem9TMwoMAQ0sg" general="_tWTf0JtAEem9TMwoMAQ0sg"/>
+      <ownedOperation xmi:id="_taI28JtAEem9TMwoMAQ0sg" name="start" visibility="public">
+        <ownedParameter xmi:id="_taI28ZtAEem9TMwoMAQ0sg" name="primaryStage" type="_tWUG5ptAEem9TMwoMAQ0sg"/>
+        <ownedParameter xmi:id="_taI28ptAEem9TMwoMAQ0sg" name="list" type="_tWUt8ZtAEem9TMwoMAQ0sg"/>
+        <ownedParameter xmi:id="_taI285tAEem9TMwoMAQ0sg" name="index">
+          <type xmi:type="uml:PrimitiveType" href="pathmap://UML_LIBRARIES/JavaPrimitiveTypes.library.uml#int"/>
+        </ownedParameter>
+      </ownedOperation>
+      <ownedOperation xmi:id="_taKsIJtAEem9TMwoMAQ0sg" name="saveToFile" visibility="public" isStatic="true">
+        <ownedComment xmi:id="_taL6QJtAEem9TMwoMAQ0sg">
+          <body>/** 
+ * &#x5199;&#x5165;&#x6587;&#x4ef6;
+ * @param facultys
+ * @param size
+ * @throws FileNotFoundException
+ */
+</body>
+        </ownedComment>
+        <ownedParameter xmi:id="_taKsIZtAEem9TMwoMAQ0sg" name="facultys" type="_tWUt8ZtAEem9TMwoMAQ0sg"/>
+        <ownedParameter xmi:id="_taKsIptAEem9TMwoMAQ0sg" name="size">
+          <type xmi:type="uml:PrimitiveType" href="pathmap://UML_LIBRARIES/JavaPrimitiveTypes.library.uml#int"/>
+        </ownedParameter>
+      </ownedOperation>
+      <ownedOperation xmi:id="_taMhUJtAEem9TMwoMAQ0sg" name="start" visibility="public">
+        <ownedParameter xmi:id="_taMhUZtAEem9TMwoMAQ0sg" name="primaryStage" type="_tWUG5ptAEem9TMwoMAQ0sg"/>
+      </ownedOperation>
+    </packagedElement>
+    <packagedElement xmi:type="uml:Class" xmi:id="_tQkrQZtAEem9TMwoMAQ0sg" name="ChangeFacultySearch" visibility="package">
+      <ownedComment xmi:id="_tQl5YJtAEem9TMwoMAQ0sg">
+        <body>/** 
+ * &#x4fee;&#x6539;&#x6559;&#x5458;&#x4fe1;&#x606f;&#x67e5;&#x8be2;&#x754c;&#x9762;
+ * @author &#x5468;&#x660e;&#x534e;
+ */
+</body>
+      </ownedComment>
+      <generalization xmi:id="_taNvcJtAEem9TMwoMAQ0sg" general="_tWTf0JtAEem9TMwoMAQ0sg"/>
+      <ownedOperation xmi:id="_taOWgJtAEem9TMwoMAQ0sg" name="start" visibility="public">
+        <ownedParameter xmi:id="_taOWgZtAEem9TMwoMAQ0sg" name="primaryStage" type="_tWUG5ptAEem9TMwoMAQ0sg"/>
+      </ownedOperation>
+    </packagedElement>
+    <packagedElement xmi:type="uml:Class" xmi:id="_tRBXMJtAEem9TMwoMAQ0sg" name="DeleteStudent">
+      <ownedComment xmi:id="_tRDMYJtAEem9TMwoMAQ0sg">
+        <body>/** 
+ * &#x5220;&#x9664;&#x5b66;&#x751f;&#x4fe1;&#x606f;&#x754c;&#x9762;
+ * @author &#x5468;&#x660e;&#x534e;
+ */
+</body>
+      </ownedComment>
+      <generalization xmi:id="_taPkoJtAEem9TMwoMAQ0sg" general="_tWTf0JtAEem9TMwoMAQ0sg"/>
+      <ownedOperation xmi:id="_taQLsJtAEem9TMwoMAQ0sg" name="start" visibility="public">
+        <ownedParameter xmi:id="_taQLsZtAEem9TMwoMAQ0sg" name="primaryStage" type="_tWUG5ptAEem9TMwoMAQ0sg"/>
+        <ownedParameter xmi:id="_taQLsptAEem9TMwoMAQ0sg" name="list" type="_tWUt8ZtAEem9TMwoMAQ0sg"/>
+        <ownedParameter xmi:id="_taQLs5tAEem9TMwoMAQ0sg" name="index">
+          <type xmi:type="uml:PrimitiveType" href="pathmap://UML_LIBRARIES/JavaPrimitiveTypes.library.uml#int"/>
+        </ownedParameter>
+      </ownedOperation>
+      <ownedOperation xmi:id="_taRZ0JtAEem9TMwoMAQ0sg" name="saveToFile" visibility="public" isStatic="true">
+        <ownedComment xmi:id="_taSn8JtAEem9TMwoMAQ0sg">
+          <body>/** 
+ * &#x5199;&#x5165;&#x6587;&#x4ef6;
+ * @param student 
+ * @throws FileNotFoundException
+ */
+</body>
+        </ownedComment>
+        <ownedParameter xmi:id="_taRZ0ZtAEem9TMwoMAQ0sg" name="students" type="_tWUt8ZtAEem9TMwoMAQ0sg"/>
+        <ownedParameter xmi:id="_taRZ0ptAEem9TMwoMAQ0sg" name="size">
+          <type xmi:type="uml:PrimitiveType" href="pathmap://UML_LIBRARIES/JavaPrimitiveTypes.library.uml#int"/>
+        </ownedParameter>
+      </ownedOperation>
+      <ownedOperation xmi:id="_taTPAJtAEem9TMwoMAQ0sg" name="start" visibility="public">
+        <ownedParameter xmi:id="_taTPAZtAEem9TMwoMAQ0sg" name="primaryStage" type="_tWUG5ptAEem9TMwoMAQ0sg"/>
+      </ownedOperation>
+    </packagedElement>
+    <packagedElement xmi:type="uml:Class" xmi:id="_tRDMYZtAEem9TMwoMAQ0sg" name="DeleteStudentSearch" visibility="package">
+      <ownedComment xmi:id="_tREagJtAEem9TMwoMAQ0sg">
+        <body>/** 
+ * &#x67e5;&#x8be2;&#x8981;&#x5220;&#x9664;&#x7684;&#x5b66;&#x751f;&#x754c;&#x9762;
+ * @author &#x5468;&#x660e;&#x534e;
+ */
+</body>
+      </ownedComment>
+      <generalization xmi:id="_taT2EJtAEem9TMwoMAQ0sg" general="_tWTf0JtAEem9TMwoMAQ0sg"/>
+      <ownedOperation xmi:id="_taUdIJtAEem9TMwoMAQ0sg" name="start" visibility="public">
+        <ownedParameter xmi:id="_taUdIZtAEem9TMwoMAQ0sg" name="primaryStage" type="_tWUG5ptAEem9TMwoMAQ0sg"/>
+      </ownedOperation>
+    </packagedElement>
+    <packagedElement xmi:type="uml:Class" xmi:id="_tRM9YJtAEem9TMwoMAQ0sg" name="ChangeStaff">
+      <ownedComment xmi:id="_tROykJtAEem9TMwoMAQ0sg">
+        <body>/** 
+ * &#x4fee;&#x6539;&#x804c;&#x5458;&#x4fe1;&#x606f;&#x754c;&#x9762;
+ * @author &#x5468;&#x660e;&#x534e;
+ */
+</body>
+      </ownedComment>
+      <generalization xmi:id="_taVrQJtAEem9TMwoMAQ0sg" general="_tWTf0JtAEem9TMwoMAQ0sg"/>
+      <ownedOperation xmi:id="_taVrQZtAEem9TMwoMAQ0sg" name="start" visibility="public">
+        <ownedParameter xmi:id="_taVrQptAEem9TMwoMAQ0sg" name="primaryStage" type="_tWUG5ptAEem9TMwoMAQ0sg"/>
+        <ownedParameter xmi:id="_taVrQ5tAEem9TMwoMAQ0sg" name="list" type="_tWUt8ZtAEem9TMwoMAQ0sg"/>
+        <ownedParameter xmi:id="_taVrRJtAEem9TMwoMAQ0sg" name="index">
+          <type xmi:type="uml:PrimitiveType" href="pathmap://UML_LIBRARIES/JavaPrimitiveTypes.library.uml#int"/>
+        </ownedParameter>
+      </ownedOperation>
+      <ownedOperation xmi:id="_taW5YJtAEem9TMwoMAQ0sg" name="saveToFile" visibility="public" isStatic="true">
+        <ownedComment xmi:id="_taYHgJtAEem9TMwoMAQ0sg">
+          <body>/** 
+ * &#x5199;&#x5165;&#x6587;&#x4ef6;
+ * @param staffs
+ * @param size
+ * @throws FileNotFoundException
+ */
+</body>
+        </ownedComment>
+        <ownedParameter xmi:id="_taW5YZtAEem9TMwoMAQ0sg" name="staffs" type="_tWUt8ZtAEem9TMwoMAQ0sg"/>
+        <ownedParameter xmi:id="_taW5YptAEem9TMwoMAQ0sg" name="size">
+          <type xmi:type="uml:PrimitiveType" href="pathmap://UML_LIBRARIES/JavaPrimitiveTypes.library.uml#int"/>
+        </ownedParameter>
+      </ownedOperation>
+      <ownedOperation xmi:id="_taYukJtAEem9TMwoMAQ0sg" name="start" visibility="public">
+        <ownedParameter xmi:id="_taYukZtAEem9TMwoMAQ0sg" name="primaryStage" type="_tWUG5ptAEem9TMwoMAQ0sg"/>
+      </ownedOperation>
+    </packagedElement>
+    <packagedElement xmi:type="uml:Class" xmi:id="_tROykZtAEem9TMwoMAQ0sg" name="ChangeStaffSearch" visibility="package">
+      <ownedComment xmi:id="_tRQAsJtAEem9TMwoMAQ0sg">
+        <body>/** 
+ * &#x4fee;&#x6539;&#x804c;&#x5458;&#x4fe1;&#x606f;&#x67e5;&#x8be2;&#x754c;&#x9762;
+ * @author &#x5468;&#x660e;&#x534e;
+ */
+</body>
+      </ownedComment>
+      <generalization xmi:id="_taZ8sJtAEem9TMwoMAQ0sg" general="_tWTf0JtAEem9TMwoMAQ0sg"/>
+      <ownedOperation xmi:id="_taZ8sZtAEem9TMwoMAQ0sg" name="start" visibility="public">
+        <ownedParameter xmi:id="_taZ8sptAEem9TMwoMAQ0sg" name="primaryStage" type="_tWUG5ptAEem9TMwoMAQ0sg"/>
+      </ownedOperation>
+    </packagedElement>
+    <packagedElement xmi:type="uml:Class" xmi:id="_tRZxsJtAEem9TMwoMAQ0sg" name="AddStudent">
+      <ownedComment xmi:id="_tRaYwJtAEem9TMwoMAQ0sg">
+        <body>/** 
+ * &#x589e;&#x52a0;&#x5b66;&#x751f;&#x4fe1;&#x606f;&#x754c;&#x9762;
+ * @author &#x5468;&#x660e;&#x534e;
+ */
+</body>
+      </ownedComment>
+      <generalization xmi:id="_tabK0JtAEem9TMwoMAQ0sg" general="_tWTf0JtAEem9TMwoMAQ0sg"/>
+      <ownedOperation xmi:id="_tabK0ZtAEem9TMwoMAQ0sg" name="start" visibility="public">
+        <ownedParameter xmi:id="_tabK0ptAEem9TMwoMAQ0sg" name="primaryStage" type="_tWUG5ptAEem9TMwoMAQ0sg"/>
+      </ownedOperation>
+      <ownedOperation xmi:id="_tacY8JtAEem9TMwoMAQ0sg" name="saveToFile" visibility="public" isStatic="true">
+        <ownedComment xmi:id="_tadAAJtAEem9TMwoMAQ0sg">
+          <body>/** 
+ * &#x5199;&#x5165;&#x6587;&#x4ef6;
+ * @param student 
+ * @throws FileNotFoundException
+ */
+</body>
+        </ownedComment>
+        <ownedParameter xmi:id="_tacY8ZtAEem9TMwoMAQ0sg" name="student" type="_tWUt8ZtAEem9TMwoMAQ0sg"/>
+      </ownedOperation>
+    </packagedElement>
+    <packagedElement xmi:type="uml:Class" xmi:id="_tRl-8JtAEem9TMwoMAQ0sg" name="ChangePostgraduate">
+      <ownedComment xmi:id="_tRobMJtAEem9TMwoMAQ0sg">
+        <body>/** 
+ * &#x4fee;&#x6539;&#x7814;&#x7a76;&#x751f;&#x4fe1;&#x606f;&#x754c;&#x9762;
+ * @author &#x5468;&#x660e;&#x534e;
+ */
+</body>
+      </ownedComment>
+      <generalization xmi:id="_tadAAZtAEem9TMwoMAQ0sg" general="_tWTf0JtAEem9TMwoMAQ0sg"/>
+      <ownedOperation xmi:id="_tadnEJtAEem9TMwoMAQ0sg" name="start" visibility="public">
+        <ownedParameter xmi:id="_tadnEZtAEem9TMwoMAQ0sg" name="primaryStage" type="_tWUG5ptAEem9TMwoMAQ0sg"/>
+        <ownedParameter xmi:id="_tadnEptAEem9TMwoMAQ0sg" name="list" type="_tWUt8ZtAEem9TMwoMAQ0sg"/>
+        <ownedParameter xmi:id="_tadnE5tAEem9TMwoMAQ0sg" name="index">
+          <type xmi:type="uml:PrimitiveType" href="pathmap://UML_LIBRARIES/JavaPrimitiveTypes.library.uml#int"/>
+        </ownedParameter>
+      </ownedOperation>
+      <ownedOperation xmi:id="_tae1MJtAEem9TMwoMAQ0sg" name="saveToFile" visibility="public" isStatic="true">
+        <ownedComment xmi:id="_tagDUJtAEem9TMwoMAQ0sg">
+          <body>/** 
+ * &#x5199;&#x5165;&#x6587;&#x4ef6;
+ * @param postgraduates
+ * @param size
+ * @throws FileNotFoundException
+ */
+</body>
+        </ownedComment>
+        <ownedParameter xmi:id="_tae1MZtAEem9TMwoMAQ0sg" name="postgraduates" type="_tWUt8ZtAEem9TMwoMAQ0sg"/>
+        <ownedParameter xmi:id="_tae1MptAEem9TMwoMAQ0sg" name="size">
+          <type xmi:type="uml:PrimitiveType" href="pathmap://UML_LIBRARIES/JavaPrimitiveTypes.library.uml#int"/>
+        </ownedParameter>
+      </ownedOperation>
+      <ownedOperation xmi:id="_tagqYJtAEem9TMwoMAQ0sg" name="start" visibility="public">
+        <ownedParameter xmi:id="_tagqYZtAEem9TMwoMAQ0sg" name="primaryStage" type="_tWUG5ptAEem9TMwoMAQ0sg"/>
+      </ownedOperation>
+    </packagedElement>
+    <packagedElement xmi:type="uml:Class" xmi:id="_tRobMZtAEem9TMwoMAQ0sg" name="ChangePostgraduateSearch" visibility="package">
+      <ownedComment xmi:id="_tRppUJtAEem9TMwoMAQ0sg">
+        <body>/** 
+ * &#x4fee;&#x6539;&#x7814;&#x7a76;&#x751f;&#x4fe1;&#x606f;&#x67e5;&#x8be2;&#x754c;&#x9762;
+ * @author &#x5468;&#x660e;&#x534e;
+ */
+</body>
+      </ownedComment>
+      <generalization xmi:id="_tah4gJtAEem9TMwoMAQ0sg" general="_tWTf0JtAEem9TMwoMAQ0sg"/>
+      <ownedOperation xmi:id="_tah4gZtAEem9TMwoMAQ0sg" name="start" visibility="public">
+        <ownedParameter xmi:id="_tah4gptAEem9TMwoMAQ0sg" name="primaryStage" type="_tWUG5ptAEem9TMwoMAQ0sg"/>
+      </ownedOperation>
+    </packagedElement>
+    <packagedElement xmi:type="uml:Class" xmi:id="_tR3rwJtAEem9TMwoMAQ0sg" name="StaffTable">
+      <ownedComment xmi:id="_tR5g8JtAEem9TMwoMAQ0sg">
+        <body>/** 
+ * &#x804c;&#x5458;&#x4fe1;&#x606f;&#x7ba1;&#x7406;&#x754c;&#x9762;
+ * @author &#x5468;&#x660e;&#x534e;
+ */
+</body>
+      </ownedComment>
+      <generalization xmi:id="_tajGoJtAEem9TMwoMAQ0sg" general="_tWTf0JtAEem9TMwoMAQ0sg"/>
+      <ownedAttribute xmi:id="_tajtsJtAEem9TMwoMAQ0sg" name="table" visibility="private" type="_tZxqkZtAEem9TMwoMAQ0sg" isReadOnly="true"/>
+      <ownedOperation xmi:id="_tak70JtAEem9TMwoMAQ0sg" name="start" visibility="public">
+        <ownedParameter xmi:id="_tak70ZtAEem9TMwoMAQ0sg" name="stage" type="_tWUG5ptAEem9TMwoMAQ0sg"/>
+      </ownedOperation>
+      <ownedOperation xmi:id="_tamJ8JtAEem9TMwoMAQ0sg" name="readFile" visibility="public">
+        <ownedComment xmi:id="_tanYEJtAEem9TMwoMAQ0sg">
+          <body>/** 
+ * &#x8bfb;&#x53d6;&#x6587;&#x4ef6;
+ * @return ArrayList
+ * @throws FileNotFoundException
+ */
+</body>
+        </ownedComment>
+        <ownedParameter xmi:id="_tamJ8ZtAEem9TMwoMAQ0sg" name="return" type="_tWUt8ZtAEem9TMwoMAQ0sg" direction="return"/>
+      </ownedOperation>
+    </packagedElement>
+    <packagedElement xmi:type="uml:Class" xmi:id="_tR_nkJtAEem9TMwoMAQ0sg" name="AddEmployee">
+      <ownedComment xmi:id="_tSAOoJtAEem9TMwoMAQ0sg">
+        <body>/** 
+ * &#x589e;&#x52a0;&#x96c7;&#x5458;&#x4fe1;&#x606f;&#x754c;&#x9762;
+ * @author &#x5468;&#x660e;&#x534e;
+ */
+</body>
+      </ownedComment>
+      <generalization xmi:id="_tanYEZtAEem9TMwoMAQ0sg" general="_tWTf0JtAEem9TMwoMAQ0sg"/>
+      <ownedOperation xmi:id="_tanYEptAEem9TMwoMAQ0sg" name="start" visibility="public">
+        <ownedParameter xmi:id="_tanYE5tAEem9TMwoMAQ0sg" name="primaryStage" type="_tWUG5ptAEem9TMwoMAQ0sg"/>
+      </ownedOperation>
+      <ownedOperation xmi:id="_taomMJtAEem9TMwoMAQ0sg" name="saveToFile" visibility="public" isStatic="true">
+        <ownedComment xmi:id="_tapNQJtAEem9TMwoMAQ0sg">
+          <body>/** 
+ * &#x5199;&#x5165;&#x6587;&#x4ef6;
+ * @param employee 
+ * @throws FileNotFoundException
+ */
+</body>
+        </ownedComment>
+        <ownedParameter xmi:id="_taomMZtAEem9TMwoMAQ0sg" name="employee" type="_tWUt8ZtAEem9TMwoMAQ0sg"/>
+      </ownedOperation>
+    </packagedElement>
+    <packagedElement xmi:type="uml:Class" xmi:id="_tSRUYJtAEem9TMwoMAQ0sg" name="DeleteFaculty">
+      <ownedComment xmi:id="_tSSigJtAEem9TMwoMAQ0sg">
+        <body>/** 
+ * &#x5220;&#x9664;&#x6559;&#x5458;&#x4fe1;&#x606f;&#x754c;&#x9762;
+ * @author &#x5468;&#x660e;&#x534e;
+ */
+</body>
+      </ownedComment>
+      <generalization xmi:id="_tapNQZtAEem9TMwoMAQ0sg" general="_tWTf0JtAEem9TMwoMAQ0sg"/>
+      <ownedOperation xmi:id="_tap0UJtAEem9TMwoMAQ0sg" name="start" visibility="public">
+        <ownedParameter xmi:id="_tap0UZtAEem9TMwoMAQ0sg" name="primaryStage" type="_tWUG5ptAEem9TMwoMAQ0sg"/>
+        <ownedParameter xmi:id="_tap0UptAEem9TMwoMAQ0sg" name="list" type="_tWUt8ZtAEem9TMwoMAQ0sg"/>
+        <ownedParameter xmi:id="_tap0U5tAEem9TMwoMAQ0sg" name="index">
+          <type xmi:type="uml:PrimitiveType" href="pathmap://UML_LIBRARIES/JavaPrimitiveTypes.library.uml#int"/>
+        </ownedParameter>
+      </ownedOperation>
+      <ownedOperation xmi:id="_tarCcJtAEem9TMwoMAQ0sg" name="saveToFile" visibility="public" isStatic="true">
+        <ownedComment xmi:id="_tarpgJtAEem9TMwoMAQ0sg">
+          <body>/** 
+ * &#x5199;&#x5165;&#x6587;&#x4ef6;
+ * @param facultys
+ * @param size
+ * @throws FileNotFoundException
+ */
+</body>
+        </ownedComment>
+        <ownedParameter xmi:id="_tarCcZtAEem9TMwoMAQ0sg" name="facultys" type="_tWUt8ZtAEem9TMwoMAQ0sg"/>
+        <ownedParameter xmi:id="_tarCcptAEem9TMwoMAQ0sg" name="size">
+          <type xmi:type="uml:PrimitiveType" href="pathmap://UML_LIBRARIES/JavaPrimitiveTypes.library.uml#int"/>
+        </ownedParameter>
+      </ownedOperation>
+      <ownedOperation xmi:id="_tasQkJtAEem9TMwoMAQ0sg" name="start" visibility="public">
+        <ownedParameter xmi:id="_tasQkZtAEem9TMwoMAQ0sg" name="primaryStage" type="_tWUG5ptAEem9TMwoMAQ0sg"/>
+      </ownedOperation>
+    </packagedElement>
+    <packagedElement xmi:type="uml:Class" xmi:id="_tSSigZtAEem9TMwoMAQ0sg" name="DeleteFacultySearch" visibility="package">
+      <ownedComment xmi:id="_tSTwoJtAEem9TMwoMAQ0sg">
+        <body>/** 
+ * &#x67e5;&#x8be2;&#x5220;&#x9664;&#x7814;&#x7a76;&#x751f;&#x754c;&#x9762;
+ * @author &#x5468;&#x660e;&#x534e;
+ */
+</body>
+      </ownedComment>
+      <generalization xmi:id="_tas3oJtAEem9TMwoMAQ0sg" general="_tWTf0JtAEem9TMwoMAQ0sg"/>
+      <ownedOperation xmi:id="_ta0MYJtAEem9TMwoMAQ0sg" name="start" visibility="public">
+        <ownedParameter xmi:id="_ta0MYZtAEem9TMwoMAQ0sg" name="primaryStage" type="_tWUG5ptAEem9TMwoMAQ0sg"/>
+      </ownedOperation>
+    </packagedElement>
+    <packagedElement xmi:type="uml:Class" xmi:id="_tScTgJtAEem9TMwoMAQ0sg" name="SearchStudent">
+      <ownedComment xmi:id="_tSc6kJtAEem9TMwoMAQ0sg">
+        <body>/** 
+ * &#x67e5;&#x8be2;&#x5b66;&#x751f;&#x754c;&#x9762;
+ * @author &#x5468;&#x660e;&#x534e;
+ */
+</body>
+      </ownedComment>
+      <generalization xmi:id="_ta2BkJtAEem9TMwoMAQ0sg" general="_tWTf0JtAEem9TMwoMAQ0sg"/>
+      <ownedOperation xmi:id="_ta2ooJtAEem9TMwoMAQ0sg" name="start" visibility="public">
+        <ownedParameter xmi:id="_ta2ooZtAEem9TMwoMAQ0sg" name="primaryStage" type="_tWUG5ptAEem9TMwoMAQ0sg"/>
+      </ownedOperation>
+    </packagedElement>
+    <packagedElement xmi:type="uml:Class" xmi:id="_tSsLIJtAEem9TMwoMAQ0sg" name="StudentTable">
+      <ownedComment xmi:id="_tStZQJtAEem9TMwoMAQ0sg">
+        <body>/** 
+ * &#x5b66;&#x751f;&#x4fe1;&#x606f;&#x7ba1;&#x7406;&#x754c;&#x9762;
+ * @author &#x5468;&#x660e;&#x534e;
+ */
+</body>
+      </ownedComment>
+      <generalization xmi:id="_ta32wJtAEem9TMwoMAQ0sg" general="_tWTf0JtAEem9TMwoMAQ0sg"/>
+      <ownedAttribute xmi:id="_ta5r8JtAEem9TMwoMAQ0sg" name="table" visibility="private" type="_tZ6NcJtAEem9TMwoMAQ0sg" isReadOnly="true"/>
+      <ownedOperation xmi:id="_ta66EJtAEem9TMwoMAQ0sg" name="start" visibility="public">
+        <ownedParameter xmi:id="_ta66EZtAEem9TMwoMAQ0sg" name="stage" type="_tWUG5ptAEem9TMwoMAQ0sg"/>
+      </ownedOperation>
+      <ownedOperation xmi:id="_ta8IMJtAEem9TMwoMAQ0sg" name="readFile" visibility="public">
+        <ownedComment xmi:id="_ta9WUJtAEem9TMwoMAQ0sg">
+          <body>/** 
+ * &#x8bfb;&#x53d6;&#x6587;&#x4ef6;
+ * @return Student &#x5bf9;&#x8c61;&#x94fe;&#x8868;
+ * @throws FileNotFoundException
+ */
+</body>
+        </ownedComment>
+        <ownedParameter xmi:id="_ta8IMZtAEem9TMwoMAQ0sg" name="return" type="_tWUt8ZtAEem9TMwoMAQ0sg" direction="return"/>
+      </ownedOperation>
+    </packagedElement>
+    <packagedElement xmi:type="uml:Class" xmi:id="_tS18IJtAEem9TMwoMAQ0sg" name="AddFaculty">
+      <ownedComment xmi:id="_tS2jMJtAEem9TMwoMAQ0sg">
+        <body>/** 
+ * &#x589e;&#x52a0;&#x6559;&#x5458;&#x4fe1;&#x606f;&#x754c;&#x9762;
+ * @author &#x5468;&#x660e;&#x534e;
+ */
+</body>
+      </ownedComment>
+      <generalization xmi:id="_ta9WUZtAEem9TMwoMAQ0sg" general="_tWTf0JtAEem9TMwoMAQ0sg"/>
+      <ownedOperation xmi:id="_ta99YJtAEem9TMwoMAQ0sg" name="start" visibility="public">
+        <ownedParameter xmi:id="_ta99YZtAEem9TMwoMAQ0sg" name="primaryStage" type="_tWUG5ptAEem9TMwoMAQ0sg"/>
+      </ownedOperation>
+      <ownedOperation xmi:id="_ta_ykJtAEem9TMwoMAQ0sg" name="saveToFile" visibility="public" isStatic="true">
+        <ownedComment xmi:id="_tbAZoJtAEem9TMwoMAQ0sg">
+          <body>/** 
+ * &#x5199;&#x5165;&#x6587;&#x4ef6;
+ * @param faculty
+ * @throws FileNotFoundException
+ */
+</body>
+        </ownedComment>
+        <ownedParameter xmi:id="_ta_ykZtAEem9TMwoMAQ0sg" name="faculty" type="_tWUt8ZtAEem9TMwoMAQ0sg"/>
+      </ownedOperation>
+    </packagedElement>
+    <packagedElement xmi:type="uml:Class" xmi:id="_tS9Q4JtAEem9TMwoMAQ0sg" name="DeleteStaff">
+      <ownedComment xmi:id="_tS-fAJtAEem9TMwoMAQ0sg">
+        <body>/** 
+ * &#x5220;&#x9664;&#x804c;&#x5458;&#x4fe1;&#x606f;&#x754c;&#x9762;
+ * @author &#x5468;&#x660e;&#x534e;
+ */
+</body>
+      </ownedComment>
+      <generalization xmi:id="_tbBAsJtAEem9TMwoMAQ0sg" general="_tWTf0JtAEem9TMwoMAQ0sg"/>
+      <ownedOperation xmi:id="_tbBAsZtAEem9TMwoMAQ0sg" name="start" visibility="public">
+        <ownedParameter xmi:id="_tbBAsptAEem9TMwoMAQ0sg" name="primaryStage" type="_tWUG5ptAEem9TMwoMAQ0sg"/>
+        <ownedParameter xmi:id="_tbBAs5tAEem9TMwoMAQ0sg" name="list" type="_tWUt8ZtAEem9TMwoMAQ0sg"/>
+        <ownedParameter xmi:id="_tbBAtJtAEem9TMwoMAQ0sg" name="index">
+          <type xmi:type="uml:PrimitiveType" href="pathmap://UML_LIBRARIES/JavaPrimitiveTypes.library.uml#int"/>
+        </ownedParameter>
+      </ownedOperation>
+      <ownedOperation xmi:id="_tbDc8JtAEem9TMwoMAQ0sg" name="saveToFile" visibility="public" isStatic="true">
+        <ownedComment xmi:id="_tbFSIJtAEem9TMwoMAQ0sg">
+          <body>/** 
+ * &#x5199;&#x5165;&#x6587;&#x4ef6;
+ * @param staffs
+ * @param size
+ * @throws FileNotFoundException
+ */
+</body>
+        </ownedComment>
+        <ownedParameter xmi:id="_tbDc8ZtAEem9TMwoMAQ0sg" name="staffs" type="_tWUt8ZtAEem9TMwoMAQ0sg"/>
+        <ownedParameter xmi:id="_tbDc8ptAEem9TMwoMAQ0sg" name="size">
+          <type xmi:type="uml:PrimitiveType" href="pathmap://UML_LIBRARIES/JavaPrimitiveTypes.library.uml#int"/>
+        </ownedParameter>
+      </ownedOperation>
+      <ownedOperation xmi:id="_tbF5MJtAEem9TMwoMAQ0sg" name="start" visibility="public">
+        <ownedParameter xmi:id="_tbF5MZtAEem9TMwoMAQ0sg" name="primaryStage" type="_tWUG5ptAEem9TMwoMAQ0sg"/>
+      </ownedOperation>
+    </packagedElement>
+    <packagedElement xmi:type="uml:Class" xmi:id="_tS-fAZtAEem9TMwoMAQ0sg" name="DeleteStaffSearch" visibility="package">
+      <ownedComment xmi:id="_tS_GEJtAEem9TMwoMAQ0sg">
+        <body>/** 
+ * &#x67e5;&#x8be2;&#x8981;&#x5220;&#x9664;&#x804c;&#x5458;&#x754c;&#x9762;
+ * @author &#x5468;&#x660e;&#x534e;
+ */
+</body>
+      </ownedComment>
+      <generalization xmi:id="_tbHuYJtAEem9TMwoMAQ0sg" general="_tWTf0JtAEem9TMwoMAQ0sg"/>
+      <ownedOperation xmi:id="_tbHuYZtAEem9TMwoMAQ0sg" name="start" visibility="public">
+        <ownedParameter xmi:id="_tbHuYptAEem9TMwoMAQ0sg" name="primaryStage" type="_tWUG5ptAEem9TMwoMAQ0sg"/>
+      </ownedOperation>
+    </packagedElement>
+    <packagedElement xmi:type="uml:Class" xmi:id="_tTO9sJtAEem9TMwoMAQ0sg" name="AddStaff">
+      <ownedComment xmi:id="_tTPkwJtAEem9TMwoMAQ0sg">
+        <body>/** 
+ * &#x589e;&#x52a0;&#x804c;&#x5458;&#x4fe1;&#x606f;&#x754c;&#x9762;
+ * @author &#x5468;&#x660e;&#x534e;
+ */
+</body>
+      </ownedComment>
+      <generalization xmi:id="_tbI8gJtAEem9TMwoMAQ0sg" general="_tWTf0JtAEem9TMwoMAQ0sg"/>
+      <ownedOperation xmi:id="_tbJjkJtAEem9TMwoMAQ0sg" name="start" visibility="public">
+        <ownedParameter xmi:id="_tbJjkZtAEem9TMwoMAQ0sg" name="primaryStage" type="_tWUG5ptAEem9TMwoMAQ0sg"/>
+      </ownedOperation>
+      <ownedOperation xmi:id="_tbLYwJtAEem9TMwoMAQ0sg" name="saveToFile" visibility="public" isStatic="true">
+        <ownedComment xmi:id="_tbNN8JtAEem9TMwoMAQ0sg">
+          <body>/** 
+ * &#x5199;&#x5165;&#x6587;&#x4ef6;
+ * @param staff
+ * @throws FileNotFoundException
+ */
+</body>
+        </ownedComment>
+        <ownedParameter xmi:id="_tbLYwZtAEem9TMwoMAQ0sg" name="staff" type="_tWUt8ZtAEem9TMwoMAQ0sg"/>
+      </ownedOperation>
+    </packagedElement>
+    <packagedElement xmi:type="uml:Class" xmi:id="_tTifsJtAEem9TMwoMAQ0sg" name="MainFrame">
+      <ownedComment xmi:id="_tTjGwJtAEem9TMwoMAQ0sg">
+        <body>/** 
+ * &#x4e3b;&#x83dc;&#x5355;&#x7a97;&#x53e3;&#x754c;&#x9762;
+ * @author &#x5468;&#x660e;&#x534e;
+ */
+</body>
+      </ownedComment>
+      <generalization xmi:id="_tbNN8ZtAEem9TMwoMAQ0sg" general="_tWTf0JtAEem9TMwoMAQ0sg"/>
+      <ownedAttribute xmi:id="_tbPDIJtAEem9TMwoMAQ0sg" name="num" visibility="public" isStatic="true">
+        <type xmi:type="uml:PrimitiveType" href="pathmap://UML_LIBRARIES/JavaPrimitiveTypes.library.uml#int"/>
+        <defaultValue xmi:type="uml:LiteralInteger" xmi:id="_tbPDIZtAEem9TMwoMAQ0sg"/>
+      </ownedAttribute>
+      <ownedOperation xmi:id="_tbQ4UJtAEem9TMwoMAQ0sg" name="start" visibility="public">
+        <ownedParameter xmi:id="_tbQ4UZtAEem9TMwoMAQ0sg" name="primaryStage" type="_tWUG5ptAEem9TMwoMAQ0sg"/>
+      </ownedOperation>
+      <ownedOperation xmi:id="_tbUisJtAEem9TMwoMAQ0sg" name="main" visibility="public" isStatic="true">
+        <ownedParameter xmi:id="_tbUisZtAEem9TMwoMAQ0sg" name="args">
+          <type xmi:type="uml:PrimitiveType" href="pathmap://UML_LIBRARIES/UMLPrimitiveTypes.library.uml#String"/>
+          <upperValue xmi:type="uml:LiteralUnlimitedNatural" xmi:id="_tbUisptAEem9TMwoMAQ0sg" value="*"/>
+          <lowerValue xmi:type="uml:LiteralInteger" xmi:id="_tbUis5tAEem9TMwoMAQ0sg"/>
+        </ownedParameter>
+      </ownedOperation>
+    </packagedElement>
+    <packagedElement xmi:type="uml:Class" xmi:id="_tTvUAJtAEem9TMwoMAQ0sg" name="ChangeEmployee">
+      <ownedComment xmi:id="_tTwiIJtAEem9TMwoMAQ0sg">
+        <body>/** 
+ * &#x4fee;&#x6539;&#x96c7;&#x5458;&#x4fe1;&#x606f;&#x754c;&#x9762;
+ * @author &#x5468;&#x660e;&#x534e;
+ */
+</body>
+      </ownedComment>
+      <generalization xmi:id="_tbWX4JtAEem9TMwoMAQ0sg" general="_tWTf0JtAEem9TMwoMAQ0sg"/>
+      <ownedOperation xmi:id="_tbW-8JtAEem9TMwoMAQ0sg" name="start" visibility="public">
+        <ownedParameter xmi:id="_tbW-8ZtAEem9TMwoMAQ0sg" name="primaryStage" type="_tWUG5ptAEem9TMwoMAQ0sg"/>
+        <ownedParameter xmi:id="_tbW-8ptAEem9TMwoMAQ0sg" name="list" type="_tWUt8ZtAEem9TMwoMAQ0sg"/>
+        <ownedParameter xmi:id="_tbW-85tAEem9TMwoMAQ0sg" name="index">
+          <type xmi:type="uml:PrimitiveType" href="pathmap://UML_LIBRARIES/JavaPrimitiveTypes.library.uml#int"/>
+        </ownedParameter>
+      </ownedOperation>
+      <ownedOperation xmi:id="_tbZbMJtAEem9TMwoMAQ0sg" name="saveToFile" visibility="public" isStatic="true">
+        <ownedComment xmi:id="_tbapUJtAEem9TMwoMAQ0sg">
+          <body>/** 
+ * &#x5199;&#x5165;&#x6587;&#x4ef6;
+ * @param employees
+ * @param size
+ * @throws FileNotFoundException
+ */
+</body>
+        </ownedComment>
+        <ownedParameter xmi:id="_tbZbMZtAEem9TMwoMAQ0sg" name="employees" type="_tWUt8ZtAEem9TMwoMAQ0sg"/>
+        <ownedParameter xmi:id="_tbZbMptAEem9TMwoMAQ0sg" name="size">
+          <type xmi:type="uml:PrimitiveType" href="pathmap://UML_LIBRARIES/JavaPrimitiveTypes.library.uml#int"/>
+        </ownedParameter>
+      </ownedOperation>
+      <ownedOperation xmi:id="_tbbQYJtAEem9TMwoMAQ0sg" name="start" visibility="public">
+        <ownedParameter xmi:id="_tbbQYZtAEem9TMwoMAQ0sg" name="primaryStage" type="_tWUG5ptAEem9TMwoMAQ0sg"/>
+      </ownedOperation>
+    </packagedElement>
+    <packagedElement xmi:type="uml:Class" xmi:id="_tTwiIZtAEem9TMwoMAQ0sg" name="ChangeEmployeeSearch" visibility="package">
+      <ownedComment xmi:id="_tTxJMJtAEem9TMwoMAQ0sg">
+        <body>/** 
+ * &#x4fee;&#x6539;&#x96c7;&#x5458;&#x4fe1;&#x606f;&#x67e5;&#x8be2;&#x754c;&#x9762;
+ * @author &#x5468;&#x660e;&#x534e;
+ */
+</body>
+      </ownedComment>
+      <generalization xmi:id="_tbcegJtAEem9TMwoMAQ0sg" general="_tWTf0JtAEem9TMwoMAQ0sg"/>
+      <ownedOperation xmi:id="_tbcegZtAEem9TMwoMAQ0sg" name="start" visibility="public">
+        <ownedParameter xmi:id="_tbcegptAEem9TMwoMAQ0sg" name="primaryStage" type="_tWUG5ptAEem9TMwoMAQ0sg"/>
+      </ownedOperation>
+    </packagedElement>
+    <packagedElement xmi:type="uml:Class" xmi:id="_tTy-YJtAEem9TMwoMAQ0sg" name="SearchStaff">
+      <ownedComment xmi:id="_tTzlcJtAEem9TMwoMAQ0sg">
+        <body>/** 
+ * &#x67e5;&#x8be2;&#x804c;&#x5458;&#x754c;&#x9762;
+ * @author &#x5468;&#x660e;&#x534e;
+ */
+</body>
+      </ownedComment>
+      <generalization xmi:id="_tbdsoJtAEem9TMwoMAQ0sg" general="_tWTf0JtAEem9TMwoMAQ0sg"/>
+      <ownedOperation xmi:id="_tbeTsJtAEem9TMwoMAQ0sg" name="start" visibility="public">
+        <ownedParameter xmi:id="_tbeTsZtAEem9TMwoMAQ0sg" name="primaryStage" type="_tWUG5ptAEem9TMwoMAQ0sg"/>
+      </ownedOperation>
+    </packagedElement>
+    <packagedElement xmi:type="uml:Class" xmi:id="_tT0MgJtAEem9TMwoMAQ0sg" name="SearchWrongFrame">
+      <ownedComment xmi:id="_tT0zkJtAEem9TMwoMAQ0sg">
+        <body>/** 
+ * &#x67e5;&#x8be2;&#x9519;&#x8bef;
+ * @author &#x5468;&#x660e;&#x534e;
+ */
+</body>
+      </ownedComment>
+      <generalization xmi:id="_tbe6wJtAEem9TMwoMAQ0sg" general="_tWTf0JtAEem9TMwoMAQ0sg"/>
+      <ownedOperation xmi:id="_tbfh0JtAEem9TMwoMAQ0sg" name="start" visibility="public">
+        <ownedParameter xmi:id="_tbfh0ZtAEem9TMwoMAQ0sg" name="primaryStage" type="_tWUG5ptAEem9TMwoMAQ0sg"/>
+      </ownedOperation>
+    </packagedElement>
+  </packagedElement>
+  <packagedElement xmi:type="uml:Package" xmi:id="_tWRqoJtAEem9TMwoMAQ0sg" name="javafx">
+    <packagedElement xmi:type="uml:Package" xmi:id="_tWRqoZtAEem9TMwoMAQ0sg" name="application">
+      <packagedElement xmi:type="uml:DataType" xmi:id="_tWTf0JtAEem9TMwoMAQ0sg" name="Application"/>
+      <packagedElement xmi:type="uml:DataType" xmi:id="_tWV8FJtAEem9TMwoMAQ0sg" name="Platform"/>
+    </packagedElement>
+    <packagedElement xmi:type="uml:Package" xmi:id="_tWTf0ZtAEem9TMwoMAQ0sg" name="scene">
+      <packagedElement xmi:type="uml:DataType" xmi:id="_tWTf0ptAEem9TMwoMAQ0sg" name="Scene"/>
+      <packagedElement xmi:type="uml:Package" xmi:id="_tWUG4JtAEem9TMwoMAQ0sg" name="image">
+        <packagedElement xmi:type="uml:DataType" xmi:id="_tWUG4ZtAEem9TMwoMAQ0sg" name="Image"/>
+        <packagedElement xmi:type="uml:DataType" xmi:id="_tWUG4ptAEem9TMwoMAQ0sg" name="ImageView"/>
+      </packagedElement>
+      <packagedElement xmi:type="uml:Package" xmi:id="_tWUG45tAEem9TMwoMAQ0sg" name="layout">
+        <packagedElement xmi:type="uml:DataType" xmi:id="_tWUG5JtAEem9TMwoMAQ0sg" name="Pane"/>
+        <packagedElement xmi:type="uml:DataType" xmi:id="_tWUt95tAEem9TMwoMAQ0sg" name="HBox"/>
+        <packagedElement xmi:type="uml:DataType" xmi:id="_tWUt-JtAEem9TMwoMAQ0sg" name="VBox"/>
+        <packagedElement xmi:type="uml:DataType" xmi:id="_tWZmcJtAEem9TMwoMAQ0sg" name="StackPane"/>
+      </packagedElement>
+      <packagedElement xmi:type="uml:Package" xmi:id="_tWUt9JtAEem9TMwoMAQ0sg" name="control">
+        <packagedElement xmi:type="uml:DataType" xmi:id="_tWUt9ZtAEem9TMwoMAQ0sg" name="Button"/>
+        <packagedElement xmi:type="uml:DataType" xmi:id="_tWUt9ptAEem9TMwoMAQ0sg" name="TextField"/>
+        <packagedElement xmi:type="uml:DataType" xmi:id="_tWVVBZtAEem9TMwoMAQ0sg" name="TableColumn"/>
+        <packagedElement xmi:type="uml:DataType" xmi:id="_tWVVBptAEem9TMwoMAQ0sg" name="TableView"/>
+        <packagedElement xmi:type="uml:Package" xmi:id="_tWVVB5tAEem9TMwoMAQ0sg" name="cell">
+          <packagedElement xmi:type="uml:DataType" xmi:id="_tWVVCJtAEem9TMwoMAQ0sg" name="PropertyValueFactory"/>
+        </packagedElement>
+        <packagedElement xmi:type="uml:DataType" xmi:id="_tWXxQJtAEem9TMwoMAQ0sg" name="Label"/>
+      </packagedElement>
+      <packagedElement xmi:type="uml:Package" xmi:id="_tWUt-ZtAEem9TMwoMAQ0sg" name="text">
+        <packagedElement xmi:type="uml:DataType" xmi:id="_tWUt-ptAEem9TMwoMAQ0sg" name="Text"/>
+        <packagedElement xmi:type="uml:DataType" xmi:id="_tWdQ0JtAEem9TMwoMAQ0sg" name="Font"/>
+      </packagedElement>
+      <packagedElement xmi:type="uml:DataType" xmi:id="_tWVVBJtAEem9TMwoMAQ0sg" name="Group"/>
+    </packagedElement>
+    <packagedElement xmi:type="uml:Package" xmi:id="_tWUG5ZtAEem9TMwoMAQ0sg" name="stage">
+      <packagedElement xmi:type="uml:DataType" xmi:id="_tWUG5ptAEem9TMwoMAQ0sg" name="Stage"/>
+    </packagedElement>
+    <packagedElement xmi:type="uml:Package" xmi:id="_tWUt8ptAEem9TMwoMAQ0sg" name="geometry">
+      <packagedElement xmi:type="uml:DataType" xmi:id="_tWUt85tAEem9TMwoMAQ0sg" name="Pos"/>
+      <packagedElement xmi:type="uml:DataType" xmi:id="_tWVVA5tAEem9TMwoMAQ0sg" name="Insets"/>
+    </packagedElement>
+    <packagedElement xmi:type="uml:Package" xmi:id="_tWVVAJtAEem9TMwoMAQ0sg" name="collections">
+      <packagedElement xmi:type="uml:DataType" xmi:id="_tWVVAZtAEem9TMwoMAQ0sg" name="FXCollections"/>
+      <packagedElement xmi:type="uml:DataType" xmi:id="_tWVVAptAEem9TMwoMAQ0sg" name="ObservableList"/>
+    </packagedElement>
+  </packagedElement>
+  <packagedElement xmi:type="uml:Package" xmi:id="_tWUG55tAEem9TMwoMAQ0sg" name="java">
+    <packagedElement xmi:type="uml:Package" xmi:id="_tWUG6JtAEem9TMwoMAQ0sg" name="io">
+      <packagedElement xmi:type="uml:DataType" xmi:id="_tWUG6ZtAEem9TMwoMAQ0sg" name="FileNotFoundException"/>
+      <packagedElement xmi:type="uml:DataType" xmi:id="_tWV8EJtAEem9TMwoMAQ0sg" name="FileOutputStream"/>
+      <packagedElement xmi:type="uml:DataType" xmi:id="_tWV8EZtAEem9TMwoMAQ0sg" name="PrintWriter"/>
+      <packagedElement xmi:type="uml:DataType" xmi:id="_tWWjIJtAEem9TMwoMAQ0sg" name="File"/>
+    </packagedElement>
+    <packagedElement xmi:type="uml:Package" xmi:id="_tWUt8JtAEem9TMwoMAQ0sg" name="util">
+      <packagedElement xmi:type="uml:DataType" xmi:id="_tWUt8ZtAEem9TMwoMAQ0sg" name="ArrayList"/>
+      <packagedElement xmi:type="uml:DataType" xmi:id="_tWV8EptAEem9TMwoMAQ0sg" name="Timer"/>
+      <packagedElement xmi:type="uml:DataType" xmi:id="_tWV8E5tAEem9TMwoMAQ0sg" name="TimerTask"/>
+      <packagedElement xmi:type="uml:DataType" xmi:id="_tWWjIZtAEem9TMwoMAQ0sg" name="Scanner"/>
+    </packagedElement>
+  </packagedElement>
+  <packagedElement xmi:type="uml:Package" xmi:id="_tWUt-5tAEem9TMwoMAQ0sg" name="version2">
+    <packagedElement xmi:type="uml:DataType" xmi:id="_tWUt_JtAEem9TMwoMAQ0sg" name="Postgraduate"/>
+    <packagedElement xmi:type="uml:DataType" xmi:id="_tWV8FZtAEem9TMwoMAQ0sg" name="Employee"/>
+    <packagedElement xmi:type="uml:DataType" xmi:id="_tWXKMJtAEem9TMwoMAQ0sg" name="Student"/>
+    <packagedElement xmi:type="uml:DataType" xmi:id="_tWXKMZtAEem9TMwoMAQ0sg" name="Faculty"/>
+    <packagedElement xmi:type="uml:DataType" xmi:id="_tWYYUJtAEem9TMwoMAQ0sg" name="Staff"/>
+  </packagedElement>
+  <packagedElement xmi:type="uml:DataType" xmi:id="_tZEf8JtAEem9TMwoMAQ0sg" name="TableView&lt;Postgraduate>"/>
+  <packagedElement xmi:type="uml:DataType" xmi:id="_tZTJcZtAEem9TMwoMAQ0sg" name="TableView&lt;Employee>"/>
+  <packagedElement xmi:type="uml:DataType" xmi:id="_tZhL4JtAEem9TMwoMAQ0sg" name="TableView&lt;Faculty>"/>
+  <packagedElement xmi:type="uml:DataType" xmi:id="_tZxqkZtAEem9TMwoMAQ0sg" name="TableView&lt;Staff>"/>
+  <packagedElement xmi:type="uml:DataType" xmi:id="_tZ6NcJtAEem9TMwoMAQ0sg" name="TableView&lt;Student>"/>
+</uml:Model>

@@ -1,0 +1,35 @@
+15.1：产生一个事件并且触发它的组件称为事件源对象，或者简单称为源对象或者源组件。一个事件对象包含与亊件相关的任何属性。例如：一个按钮是一个事件源对象，一个 ActionEvent 是一个由源对象触发的事件对象
+15.2：都可以
+15.3：保证该处理器具有处理事件的正确方法
+15.4：注册方法依赖于事件类型。对 ActionEvent 而言，方法是 setOnAction.对一个鼠标按下事件来说，方法是 setOnMousePressed.对于一个按键事件，方法是set0nKeyPressedo 
+15.5：Aci tonEvent 并将它传递给处理器的 handle(ActionEvent) 方法以处理该事件。
+15.6：setOnAction(EventHandler<ActionEvent>) 
+15.7：可以
+15.8：可以
+15.9：Text$A.class
+      Text$1.class          Text$2.class
+15.10:(a)Action应该是ActionEvent
+      (b)EventHandler<ActionEvent>后面少了（）
+15.11：lambda 表达式可以被看作使用精简语法的匿名内部类。语法：(typel paraml, type2 param2, … ）-> expression ；lambda 表达式可以用于极大简化事件处理的代码编写。
+15.12：如果要编译器理解lambda 表达式，接口必须只包含一个抽象的方法。这样的接口称为功能接口。
+15.13：Action 1  4.5   11
+15.14：getButtonO 方法来探测哪个按钮被按下
+15.15：Text text = new Text(20, 20, "Programming is fun")；
+15.16：KeyCode 常量
+15.17：getCode（） getTextO
+15.18：只有一个被聚焦的节点可以接收 KeyEvent 事件。在一个 text 上调用 requestFocus() 
+使得 text 可以接收键盘输入
+15.19：界面无法动
+15.20：duration（INDEFINTE） pt.setAutoReverse(true);
+方法 pauseO、playO 和 stopO 暂停、播放和终止动画
+15.21：是
+15.22：Fade丁ransition ft = new FadeTransition(Du ration.millis(3000), ellipse); 
+      new KeyFrame(Duration duration, EventHandler<ActionEvent> onFinished) 
+15.23：一个 Timeline 动画被创建以获得一个关键帧
+Timeline animation = new Timeline( new KeyFrameCDuration.millis(500), eventHandler)); 
+15.24：定义一个名为 BallPane 的 Pane 类的子类，用于显示一个弹动的球
+定义一个名为 BounceBallcontrol 的 Application 的子类，用来使用鼠标动作控制弹球
+15.25：该实例包含一个 KeyFrame 对象，在一个固定的速率上调用moveBall()方法。moveBall()方法移动球以模拟动画。
+15.26：当鼠标按下的时候动画暂停，当鼠标释放的时候动画恢复执行。按下 UP / DOWN 方向键可以增加 / 减少动画的速度
+15.27：输入焦点没有设置到 ball Pane 上
+15.28：路径发生变化，不按照圆的路径

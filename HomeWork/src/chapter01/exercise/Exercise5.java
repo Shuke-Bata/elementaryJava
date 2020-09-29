@@ -1,0 +1,15 @@
+package chapter01.exercise;
+
+public class Exercise5 {
+
+	/**
+	 * 编程练习 1.5
+	 * 
+	 * @param args
+	 */
+	public static void main(String[] args) {
+		System.out.println((9.5 * 4.5 - 2.5 * 3) / (45.5 - 3.5));
+
+	}
+
+}

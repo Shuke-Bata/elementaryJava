@@ -1,0 +1,58 @@
+1、答：使用elementType[] arrayRefVar 声明数组变量，用new操作符创建数组arrayRefVar = new elementType[arraySize];
+2、答：当使用new操作符创建数组时，根据元素个数进行内存分配
+3、答：x is 60
+	The size of numbers is 30
+4、答：a、对，b、错，c、对，d、错
+5、答：double d[] = new double[30]、float f[] = {2.3, 4.5, 6.6} 有效
+6、答：通过下标来访问数组
+7、答：下标 int型 、最小下标0、a[2]
+8、答：a:double[] a = new double[10];b:a[9] = 5.5;c:System.out.print(a[0]+a[1]);
+	d:double sum = 0;
+	for(double temp:a) {
+		sum+=temp;
+	} 
+	e: double min = a[0];
+	 for(int i=1;i<a.length;i++) {
+		if(min > a[i]) {
+		min = a[i];
+		}
+	}
+	f: int index = (int)(Math.random*10);
+	System.out.print(a[index]);
+	g: double[] b ={3.5, 5.5, 4.52, 5.6};
+9：答：回报错，数组下标越界；
+10：答：double[100] r;错误;改为：double[] r = new double[100];
+	r.length()错误；改为：r.length;
+	r(i)错误；改为：r[i]
+11：答：1 1 1 1 1 1
+12：答：应该会
+13：答：System.arraycopy(source,0,t,0,source.length);
+14: 答：是，不过是在heap中重新开辟了一段空间，把引用地址给了myList，原来的还是存在
+15：答：在前面内容翻转的时候，后面的内容被覆盖，导致后面翻转的时候是被覆盖的内容，
+	修改：
+	int[] list = {1, 2, 3, 4, 5, 6};
+	int[] list2 = new int[list.length];
+	for(int i = 0,j = list.length-1; i < list.length; i++, j--) {
+	list2[j] = list[i];
+	}
+	list=list2;
+16：答：假
+17：答：a)number is 0 and numbers[0] is 3
+	b)5 4 3 2 1
+18: 答：程序执行过程中，数组保存在堆中，
+19：答：参数有错只能指定一个可变长参数
+	参数有错,可变长参数必须是最后一个参数
+	不能作为返回值
+20：答： 2可以，1、3不行，可变长参数作为数组对待
+21：答：
+22、答：二分查找法
+23、答：不在，插在0下标位置
+24、答：个分别比较，找到最小的一个数和第一个进行调换，依次调换下去，直到有序
+25：答：if(currentMin < list[j])
+26：答：数值型和字符型数组、会
+27：答：升序排列
+28：答：[2,4,7,10,7]、[2,4,7,10]、false
+29：答：可以替换全部
+30：答：1、number of strings is 15
+	2、number of strings is 3
+	3、number of strings is null

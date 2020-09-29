@@ -1,0 +1,76 @@
+``````````````1、答：假，子类并不是父类的子集
+2、答：extends
+3、答：单一继承：一个java类只可能直接继承自一个父类；多重继承：几个类派生出一个子类
+4、答：A's no_arg constructor is invoked
+	程序不能编译成功，由于A中没有无参的构造方法
+5、答：super()或super(parameters)
+6、答：假，不一定
+7、答：假，不能重写父类中的私有方法
+8、答：错，静态方法不能被覆盖
+9、答：使用super()
+10、答：super.方法名(参数)
+11、答：这里B类的重写中getArea（）缺少super引用父类的方法。这样会重复调用本地的方法，陷入死循环。
+12、答：方法重写发生在通过继承而相关的不同类中； 方法重载可以发生在同一个类中， 也可以发生在由于继承而相关的不同类中。
+	方法重写具有同样的签名和返回值类型；方法重载具有同样的名字， 但是不同的参数列表
+13、答：重写
+14、答：不确定
+15、答：重载
+16、答：具有标注的方法没有重写父类的方法，编译器会报告一个错误，使用标注可以避免错误
+17、答：多态就好像中国的太极，道。可容万类，可化万类。动态绑定，就是你用哪个类，这个方法就调用那个类的方法。
+18、答：引用变量的声明类型决定了编译时匹配哪个方法。 
+	而方法绑定贼没有在编译的时候匹配某个方法，而是在实例形成的时候动态绑定的。
+19、答：不可以，new int[50]是基本没数据类型
+20、答：list3 不是object 的子类
+21、答：a)、Person
+	Student
+	b)、Person
+	Person
+22、答：B's constructor is invoked
+	A's constructor is invoked
+23、答：i from A is 40
+	i from A is 60
+	i from B is 60
+24、答：总可以成功将子类的实例转换成父类
+	但是反之不一定
+25、答：a)、true,true,true,false
+	b)、能
+	c)、可以编译成功，但是会运行时错误
+26、答：a、true；b、false；c、true；d、true；e、false；f、true；g、true；h、false
+	i、如果是非私有的，fruit可以调用，orange不可以
+	j、orange可以，但是fruit不可以
+	k、不合法
+	l、不合法
+	m、合法
+27、答：将fruit强制转化为Apple会出现错误
+28、答：都有，来自object类，object是所有类的父类，可应通过对象应用.的方法来使用，重写这些方法合法
+29、答：object中的equals()，true，
+	true,null
+30、答：a)、ArrayList<Double> list = new ArrayList<>();
+	b)、list.add("String");
+	c)、list.add(index, "String");
+	d)、list.size();
+	e)、list.remove(Object);
+	f)、list.remove(list.size() - 1);
+	g)、list.contains(Object);
+	h)、list.get(index);
+31、答：list.add(new java.util.Date());错误，ArrayList<String>不能存放Date的对象
+32、答：{"Dallas", "Houston", "Dallas"}
+	while(list.contains("Dallas")) {
+	list.remove("Dallas");
+	}
+33、答：因为remove()有两个，1被认为是指定的下标，是基本数据类型，而不是Integer的对象
+34、答：因为1是基本数据类型，不是Double的对象
+35、答：不是int而是Integer
+36、答：java.util.Collections.max()方法是返回列表的最大值，array不是列表，是数组，应该用Array.asList()变成列表再比较
+37、答：default
+38、答：protected
+39、答：能、不能，可以
+40、答：不能，也不能，能
+41、答：使用final修饰
+42、答：a)、对
+	b)、错
+	c)、对
+	d)、对
+	e)、错，不能扩展
+	f)、错，也不能重写
+
